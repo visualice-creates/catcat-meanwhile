@@ -8,7 +8,8 @@ Ablauf (läuft sonntags über GitHub Actions, siehe .github/workflows/woche.yml)
   5. Was dann noch durchfällt, wird nicht veröffentlicht – die App nimmt an dem Tag ihren eingebauten Inhalt.
   6. Ergebnis nach docs/ (GitHub Pages): docs/weeks/<Montag>.json und docs/latest.json.
 
-Aufruf:  python generate.py [--week 2026-11-09]   (ohne --week: die nächste Woche ab kommendem Montag)
+Aufruf:  python generate.py [--week 2026-11-09] [--force]   (ohne --week: die Woche ab kommendem Montag;
+         eine schon veröffentlichte Woche wird übersprungen, außer mit --force)
 Benötigt die Umgebungsvariable ANTHROPIC_API_KEY (in GitHub als Repository-Secret).
 """
 import argparse
@@ -119,9 +120,15 @@ def week_dates(monday):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", help="Montag der Woche (JJJJ-MM-TT); Standard: kommender Montag")
+    ap.add_argument("--force", action="store_true", help="Woche neu erzeugen, auch wenn sie schon veröffentlicht ist")
     args = ap.parse_args()
     today = dt.date.today()
     monday = dt.date.fromisoformat(args.week) if args.week else today + dt.timedelta(days=(7 - today.weekday()) % 7 or 7)
+    done = DOCS / "weeks" / f"{monday}.json"
+    if done.exists() and not args.force:
+        # Schon erzeugt (z. B. per Hand vor dem Sonntagslauf) – nicht doppelt bezahlen
+        print(f"Woche ab {monday} ist schon veröffentlicht – nichts zu tun (--force erzeugt sie neu).")
+        return 0
     history = json.loads(HISTORY.read_text()) if HISTORY.exists() else []
     used = {h["key"] for h in history}
 

@@ -11,6 +11,10 @@ on:
       week:
         description: "Montag der Woche (JJJJ-MM-TT), leer = kommende Woche"
         required: false
+      force:
+        description: "Schon veröffentlichte Woche neu erzeugen (kostet erneut)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -48,7 +52,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WEEK: ${{ github.event.inputs.week }}   # als Variable, nicht direkt ins Skript eingesetzt (Schutz vor Einschleusen)
-        run: python generate.py ${WEEK:+--week "$WEEK"}
+          FORCE: ${{ github.event.inputs.force }}
+        run: python generate.py ${WEEK:+--week "$WEEK"} $([ "$FORCE" = "true" ] && echo --force)
       - name: Veröffentlichen
         run: |
           git config user.name "meanwhile-bot"
