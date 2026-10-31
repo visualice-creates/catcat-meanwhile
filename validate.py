@@ -6,7 +6,7 @@ keine Wiederholung.
 """
 import re
 
-from specs import ACCENTS, MOTIFS, WORDS
+from specs import ACCENTS, MAX_CHARS, MOTIFS, WORDS
 
 
 def words(text):
@@ -43,8 +43,8 @@ def check(topic, item, history_keys):
     if topic == "quote":
         for f in ("headline", "text", "author", "role", "when", "tag"):
             need(f)
-        if len(item.get("text", "")) > 320:
-            errors.append("Zitat zu lang fürs Sperrbild (max. 320 Zeichen)")
+        if len(item.get("text", "")) > MAX_CHARS["quote"]:
+            errors.append(f"Zitat zu lang fürs Sperrbild (max. {MAX_CHARS['quote']} Zeichen)")
     elif topic in ("paleo", "astro"):
         for f in ("title", "tag", "source"):
             need(f)
@@ -80,23 +80,23 @@ def check(topic, item, history_keys):
     elif topic == "sa":
         for f in ("word", "kind", "meaning", "origin"):
             need(f)
-        if len(item.get("word", "")) > 24:
+        if len(item.get("word", "")) > MAX_CHARS["word"]:
             errors.append("Wort zu lang fürs Sperrbild")
     elif topic == "so":
         for f in ("text", "author", "when"):
             need(f)
-        if len(item.get("text", "")) > 280:
-            errors.append("Zitat zu lang fürs Sperrbild (max. 280 Zeichen)")
+        if len(item.get("text", "")) > MAX_CHARS["so"]:
+            errors.append(f"Zitat zu lang fürs Sperrbild (max. {MAX_CHARS['so']} Zeichen)")
 
-    # Belege: jede Behauptung mit einer echten URL
+    # Belege: jede Behauptung mit einer Quelle (Werk, Fachartikel oder URL) – ob sie stimmt, prüft die Faktenprüfung
     claims = item.get("claims") or []
     min_claims = {"paleo": 6, "astro": 6, "fact": 9}.get(topic, 1)
     if len(claims) < min_claims:
         errors.append(f"nur {len(claims)} belegte Behauptungen (mindestens {min_claims})")
-    bad = [c for c in claims if not re.match(r"^https?://\S+\.\S+", c.get("url", ""))]
+    bad = [c for c in claims if len(c.get("source", "").strip()) < 4]
     if bad:
-        errors.append(f"{len(bad)} Behauptungen ohne gültige Quell-URL")
-    if not item.get("sources"):
+        errors.append(f"{len(bad)} Behauptungen ohne Quelle")
+    if not any(s.get("title", "").strip() for s in item.get("sources") or []):
         errors.append("keine Quellen angegeben")
 
     if key_for(topic, item) in history_keys:

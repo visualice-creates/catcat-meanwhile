@@ -1,12 +1,12 @@
 """Wochen-Job: erzeugt die Inhalte Montag–Sonntag der kommenden Woche, prüft sie und veröffentlicht sie.
 
 Ablauf (läuft sonntags über GitHub Actions, siehe .github/workflows/woche.yml):
-  1. Alle 7 Tage als ein Batch an Claude (halber Preis); Claude recherchiert jeden Inhalt per Websuche.
+  1. Alle fehlenden Tage als ein Batch an Claude (halber Preis); Claude schreibt aus seinem Wissen, mit Quellen.
   2. Formprüfung (validate.py): Pflichtfelder, Länge, Motive, Belege, keine Wiederholung.
   3. Faktenprüfung: zweiter Batch, eine frische Claude-Anfrage prüft jeden Inhalt mit der Websuche.
-  4. Was durchfällt, wird bis zu zweimal repariert und erneut geprüft (ebenfalls als Batch).
+  4. Was durchfällt, wird einmal repariert und erneut geprüft (ebenfalls als Batch).
   5. Was dann noch durchfällt, wird nicht veröffentlicht – die App nimmt an dem Tag ihren eingebauten Inhalt.
-  6. Ergebnis nach docs/ (GitHub Pages): docs/weeks/<Montag>.json und docs/latest.json.
+  6. Ergebnis nach docs/ (GitHub Pages): docs/weeks/<Montag>.json, docs/latest.json und ein Bericht in docs/reports/.
 
 Aufruf:  python generate.py [--week 2026-11-09] [--force]   (ohne --week: die Woche ab kommendem Montag;
          eine schon veröffentlichte Woche wird übersprungen, außer mit --force)
@@ -29,11 +29,13 @@ DOCS = ROOT / "docs"
 HISTORY = ROOT / "history.json"
 POLL_SECONDS = 60
 MAX_WAIT = 5 * 3600          # GitHub-Jobs dürfen 6 Stunden laufen
-MAX_REPAIRS = 2
+MAX_REPAIRS = 1             # Sparversion: eine Reparaturrunde
 MAX_CONTINUATIONS = 5
 
 client = anthropic.Anthropic()
-usage = {"input": 0, "output": 0, "searches": 0}
+usage = {"input": 0, "cache_read": 0, "cache_write": 0, "output": 0, "searches": 0}
+# Listenpreise Claude Opus 5.5 in $ pro Million Tokens; Batch halbiert alles außer den Suchen
+PRICE = {"input": 4.0, "cache_read": 0.20, "cache_write": 5.0, "output": 20.0, "search": 0.01}
 
 
 # ---------- Anfragen ----------
@@ -44,7 +46,7 @@ def params(user_text, out_schema, topic, verify=False):
         "max_tokens": specs.MAX_TOKENS,
         "system": [{"type": "text", "text": specs.SYSTEM, "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user_text}],
-        "tools": [specs.web_search(topic, verify)],
+        **({"tools": [specs.web_search(topic)]} if verify else {}),  # Websuche nur beim Prüfen
         "output_config": {"effort": specs.EFFORT_VERIFY if verify else specs.EFFORT_WRITE,
                           "format": {"type": "json_schema", "schema": out_schema}},
     }
@@ -52,7 +54,9 @@ def params(user_text, out_schema, topic, verify=False):
 
 def count(msg):
     u = msg.usage
-    usage["input"] += (u.input_tokens or 0) + (getattr(u, "cache_read_input_tokens", 0) or 0) + (getattr(u, "cache_creation_input_tokens", 0) or 0)
+    usage["input"] += u.input_tokens or 0
+    usage["cache_read"] += getattr(u, "cache_read_input_tokens", 0) or 0
+    usage["cache_write"] += getattr(u, "cache_creation_input_tokens", 0) or 0
     usage["output"] += u.output_tokens or 0
     stu = getattr(u, "server_tool_use", None)
     usage["searches"] += (getattr(stu, "web_search_requests", 0) or 0) if stu else 0
@@ -124,15 +128,16 @@ def main():
     args = ap.parse_args()
     today = dt.date.today()
     monday = dt.date.fromisoformat(args.week) if args.week else today + dt.timedelta(days=(7 - today.weekday()) % 7 or 7)
-    done = DOCS / "weeks" / f"{monday}.json"
-    if done.exists() and not args.force:
-        # Schon erzeugt (z. B. per Hand vor dem Sonntagslauf) – nicht doppelt bezahlen
-        print(f"Woche ab {monday} ist schon veröffentlicht – nichts zu tun (--force erzeugt sie neu).")
-        return 0
+    week_file = DOCS / "weeks" / f"{monday}.json"
+    # Schon veröffentlichte Tage nicht noch einmal bezahlen – nur fehlende nachholen (außer mit --force)
+    existing = json.loads(week_file.read_text())["days"] if week_file.exists() and not args.force else {}
     history = json.loads(HISTORY.read_text()) if HISTORY.exists() else []
     used = {h["key"] for h in history}
 
-    days = {d.isoformat(): specs.PLAN[d.weekday()] for d in week_dates(monday)}
+    days = {d.isoformat(): specs.PLAN[d.weekday()] for d in week_dates(monday) if d.isoformat() not in existing}
+    if not days:
+        print(f"Woche ab {monday} ist vollständig veröffentlicht – nichts zu tun (--force erzeugt sie neu).")
+        return 0
     print(f"Woche ab {monday}: " + ", ".join(f"{d}={t}" for d, t in days.items()), flush=True)
 
     items = {d: None for d in days}
@@ -171,7 +176,7 @@ def main():
     write_round({d: params(specs.prompt(t, d, avoid_list(history, t)), specs.schema(t), t) for d, t in days.items()})
     verify_round(list(days))
 
-    # 3. Reparieren, was durchgefallen ist – ebenfalls als Batch, höchstens zweimal
+    # 3. Reparieren, was durchgefallen ist – ebenfalls als Batch
     for attempt in range(MAX_REPAIRS):
         failing = [d for d in days if problems[d]]
         if not failing:
@@ -190,6 +195,8 @@ def main():
             skipped.append(d)
             continue
         item = {k: v for k, v in items[d].items() if k != "claims"}  # Belege bleiben im Archiv, nicht in der App
+        if t in ("quote", "so"):  # Anführungszeichen setzt die App selbst
+            item["text"] = item["text"].strip().strip("„“”\"‚‘’»«›‹").strip()
         published[d] = {"topic": t, **item}
         k = key_for(t, items[d])
         used.add(k)
@@ -198,8 +205,9 @@ def main():
         (DOCS / "claims" / f"{d}.json").write_text(json.dumps(items[d].get("claims", []), ensure_ascii=False, indent=1))
 
     (DOCS / "weeks").mkdir(parents=True, exist_ok=True)
+    published = {**existing, **published}
     week = {"week": monday.isoformat(), "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-            "model": specs.MODEL, "days": published}
+            "model": specs.MODEL, "days": dict(sorted(published.items()))}
     (DOCS / "weeks" / f"{monday}.json").write_text(json.dumps(week, ensure_ascii=False, indent=1))
     # latest.json: diese und die vorige Woche – so hat die App auch nach einem verpassten Abruf alles
     prev = DOCS / "weeks" / f"{monday - dt.timedelta(days=7)}.json"
@@ -208,10 +216,16 @@ def main():
     (DOCS / "latest.json").write_text(json.dumps({"generated": week["generated"], "days": merged}, ensure_ascii=False, indent=1))
     HISTORY.write_text(json.dumps(history, ensure_ascii=False, indent=1))
 
-    # Kosten grob: Batch = halber Preis (nur seltene Fortsetzungen nach pause_turn laufen einzeln)
-    cost = usage["input"] / 1e6 * 4 * 0.5 + usage["output"] / 1e6 * 20 * 0.5 + usage["searches"] * 0.01
+    # Kosten (Batch = halber Preis auf Tokens; seltene Fortsetzungen nach pause_turn laufen einzeln und sind hier mit drin)
+    cost = sum(usage[k] / 1e6 * PRICE[k] for k in ("input", "cache_read", "cache_write", "output")) * 0.5 + usage["searches"] * PRICE["search"]
+    # Bericht – öffentlich lesbar, damit sich Durchfaller ohne Zugang zu den Protokollen nachvollziehen lassen
+    report = {"week": monday.isoformat(), "generated": week["generated"], "made_now": sorted(days),
+              "failed": {d: {"topic": days[d], "problems": problems[d]} for d in skipped}, "usage": usage, "cost_usd": round(cost, 2)}
+    (DOCS / "reports").mkdir(parents=True, exist_ok=True)
+    (DOCS / "reports" / f"{monday}.json").write_text(json.dumps(report, ensure_ascii=False, indent=1))
     print(f"Veröffentlicht: {len(published)}/7, ohne Inhalt (App nimmt eingebaute): {skipped or 'keine'}")
-    print(f"Tokens: {usage['input']:,} ein / {usage['output']:,} aus, {usage['searches']} Suchen – ca. {cost:.2f} $")
+    print(f"Tokens: {usage['input']:,} ein, {usage['cache_read']:,} aus dem Cache, {usage['output']:,} aus, "
+          f"{usage['searches']} Suchen – ca. {cost:.2f} $")
     return 0 if published else 1
 
 

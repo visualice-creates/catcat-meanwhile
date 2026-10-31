@@ -5,7 +5,7 @@ import pathlib
 from validate import avoid_list, check, key_for, words
 
 FILL = "Wort " * 175
-CLAIMS = [{"claim": f"Aussage {i}", "url": f"https://example.org/{i}"} for i in range(10)]
+CLAIMS = [{"claim": f"Aussage {i}", "source": f"Autorin (2025), Fachzeitschrift {i}"} for i in range(10)]
 SOURCES = [{"title": "Quelle", "url": "https://example.org"}]
 
 
@@ -27,11 +27,12 @@ def run():
 
     expect("Artikel gültig", "paleo", article(), True)
     expect("Artikel zu kurz", "paleo", dict(article(), body=article()["body"][:3]), False)
+    expect("Artikel knapp unter Ziel ist ok", "paleo", dict(article(), body=article()["body"][:-1] + [("Wort " * 140).strip()]), True)
     expect("Artikel ohne Einstieg", "paleo", dict(article(), body=article()["body"][1:]), False)
     expect("falsches Motiv", "paleo", dict(article(), illu="galaxy"), False)
     expect("falsche Farbe", "paleo", dict(article(), accent="#000000"), False)
     expect("zu wenige Belege", "paleo", dict(article(), claims=CLAIMS[:2]), False)
-    expect("Beleg ohne URL", "paleo", dict(article(), claims=CLAIMS[:8] + [{"claim": "x", "url": "keine"}]), False)
+    expect("Beleg ohne Quelle", "paleo", dict(article(), claims=CLAIMS[:8] + [{"claim": "x", "source": ""}]), False)
 
     chain = [{"title": f"Station {i}", "text": "Wort " * 95} for i in range(9)]
     fact = {"tag": "Tierwelt", "headline": "Von A nach B", "text": "Einstieg.", "illu": "honey", "accent": "#f2b33d",
