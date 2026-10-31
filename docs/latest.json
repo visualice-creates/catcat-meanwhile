@@ -1,0 +1,239 @@
+{
+ "generated": "2026-10-31T21:25:42+00:00",
+ "days": {
+  "2026-11-02": {
+   "topic": "quote",
+   "tag": "Aufklärung",
+   "illu": "steps",
+   "accent": "#c98a4b",
+   "headline": "Anders, um gut",
+   "text": "„Ich kann freilich nicht sagen, ob es besser werden wird wenn es anders wird; aber so viel kann ich sagen, es muß anders werden, wenn es gut werden soll.“",
+   "author": "Georg Christoph Lichtenberg",
+   "role": "Experimentalphysiker in Göttingen und Aphoristiker der Aufklärung (1742–1799)",
+   "when": "1793–1796 · Sudelbuch K, Nr. 293",
+   "sources": [
+    {
+     "title": "Lichtenberg-Gesellschaft: Auswahl aus den Sudelbüchern",
+     "url": "https://www.lichtenberg-gesellschaft.de/leben/l_wirk_sudel_02.html"
+    },
+    {
+     "title": "Projekt Gutenberg: Aphorismen (Sudelbücher), Heft K 1793–1796",
+     "url": "https://projekt-gutenberg.org/authors/georg-christoph-lichtenberg/books/aphorismen-sudelbuecher/chapter/11/"
+    },
+    {
+     "title": "Universität Göttingen: Georg Christoph Lichtenberg (1742 bis 1799)",
+     "url": "https://www.uni-goettingen.de/de/georg+christoph+lichtenberg+(1742+bis+1799)/74905.html"
+    },
+    {
+     "title": "Wikipedia: Sudelbücher",
+     "url": "https://de.wikipedia.org/wiki/Sudelb%C3%BCcher"
+    }
+   ]
+  },
+  "2026-11-04": {
+   "topic": "fact",
+   "tag": "Faktenkette",
+   "illu": "otter",
+   "accent": "#47b39d",
+   "headline": "Vom Seeotter zum Salzstreuer",
+   "text": "Wie ein Tier mit außergewöhnlich dichtem Fell über Tangwälder und Schießpulver mit dem Salz auf dem Frühstückstisch zusammenhängt.",
+   "source": "Marine Mammal Commission; UC Davis Wildlife Health Center; Alaska Department of Fish and Game; California Department of Fish and Wildlife; Estes & Palmisano, Science 185 (1974); NOAA Ocean Service; Royal Society of Chemistry; Encyclopedia.com (Courtois); Science in School; Eurothyroid (Coindet); Springer; SRF; Blick; Wikipedia (Bernard Courtois, Hans Eggenberger)",
+   "chain": [
+    {
+     "title": "Pelz statt Speck",
+     "text": "Anders als Robben haben Seeotter keine isolierende Speckschicht. Warm hält sie stattdessen ihr Fell, das als das dichteste im Tierreich gilt. Je nach Quelle und Körperstelle wachsen darin 250.000 bis rund eine Million Haare auf einem Quadratzoll, also auf etwa 6,5 Quadratzentimetern. Zum Vergleich: Ein ganzer menschlicher Kopf trägt etwa 100.000 Haare. Zwischen den Haaren halten die Tiere Luftbläschen fest, die das kalte Wasser von der Haut fernhalten. Dafür putzen sie ihr Fell mehrere Stunden am Tag. Ein Pelz, der so zuverlässig wärmt, war allerdings auch bei Menschen begehrt."
+    },
+    {
+     "title": "Fast ausgerottet",
+     "text": "Bevor um die Mitte des 18. Jahrhunderts die kommerzielle Jagd begann, lebten an den Küsten des Nordpazifiks schätzungsweise 150.000 bis 300.000 Seeotter. Bis 1911 waren weniger als 2.000 Tiere übrig, verteilt auf 13 kleine Restkolonien. Im selben Jahr verbot ein internationaler Vertrag zwischen den USA, Japan, Großbritannien und Russland die Jagd. Er sollte vor allem Pelzrobben schützen, half aber auch den Ottern. In Kalifornien galten sie um 1900 weithin als ausgestorben. Fachleute wussten schon ab etwa 1914 von Überlebenden bei Point Sur. Allgemein bekannt wurde eine Kolonie nahe Bixby Creek an der Big-Sur-Küste aber erst 1938."
+    },
+    {
+     "title": "Der Seeigel-Effekt",
+     "text": "Wie wichtig die Rückkehr der Otter war, zeigte eine Studie, die James Estes und John Palmisano 1974 in der Zeitschrift „Science“ veröffentlichten. Die beiden verglichen Inseln der westlichen Aleuten, an denen Seeotter lebten, mit Inseln ohne Otter. Das Ergebnis: Die Otter prägen die Lebensgemeinschaften im flachen Küstenwasser. Sie fressen Seeigel und halten deren Zahl niedrig. Fehlen die Otter, vermehren sich die Seeigel und weiden den Tang ab. Seitdem gilt der Seeotter als bekanntes Beispiel für eine Schlüsselart, deren Fehlen ein ganzes Ökosystem verändert. Was die Otter auf diese Weise indirekt schützen, sind die Tangwälder."
+    },
+    {
+     "title": "Wald unter Wasser",
+     "text": "Kelp ist kein Baum. Nach Angaben der US-Ozeanbehörde NOAA handelt es sich um große Braunalgen. Sie wachsen in kühlem, relativ flachem Wasser nahe der Küste, etwa an weiten Teilen der nordamerikanischen Westküste. Unter idealen Bedingungen wächst Kelp bis zu etwa 45 Zentimeter am Tag. Die Algen stehen so dicht wie die Bäume eines Waldes und bieten Tausenden Arten von Fischen, Wirbellosen und Meeressäugern Nahrung und Schutz. Braunalgen wachsen auch an europäischen Küsten, etwa im Norden Frankreichs. Dort interessierte man sich vor gut 200 Jahren vor allem für das, was nach dem Verbrennen übrig blieb."
+    },
+    {
+     "title": "Asche für das Schießpulver",
+     "text": "Aus der Asche von Braunalgen ließen sich wertvolle Kalium- und Natriumsalze gewinnen. Das wurde in Frankreich während der Napoleonischen Kriege wichtig. Wegen der britischen Seeblockade wurde Salpeter knapp, also Kaliumnitrat, ein Grundstoff für Schießpulver. Der Familienbetrieb des Pariser Salpeterherstellers Bernard Courtois lieferte Salpeter für die Kriege Napoleons. Courtois nutzte deshalb Tangasche als Kaliumquelle, denn die Algen kamen an den Küsten Nordfrankreichs reichlich vor. Bevor er die gewünschten Salze gewinnen konnte, musste er störende schwefelhaltige Verbindungen mit Säure entfernen. Bei diesem Arbeitsschritt geschah etwas Unerwartetes."
+    },
+    {
+     "title": "Violetter Dampf",
+     "text": "Gegen Ende des Jahres 1811 gab Courtois Schwefelsäure im Überschuss zur Tangasche. Dabei stiegen violette Dämpfe auf, die sich zu dunklen Kristallen mit metallischem Glanz niederschlugen. Courtois vermutete, dass er auf ein neues chemisches Element gestoßen war. Für eine gründliche Untersuchung fehlten ihm jedoch die Mittel. Im Juli 1812 berichtete er den Chemikern Charles-Bernard Désormes und Nicolas Clément aus Dijon von seinem Fund und bat sie, die Forschung fortzusetzen. Bald befassten sich auch zwei der bekanntesten Chemiker der Zeit mit dem rätselhaften Stoff."
+    },
+    {
+     "title": "Benannt nach einer Farbe",
+     "text": "Joseph Louis Gay-Lussac wies nach, dass es sich tatsächlich um ein neues Element handelte. Er benannte es nach dem griechischen Wort „iodes“, das violett bedeutet. Der Engländer Humphry Davy hielt sich damals in Paris auf und stand trotz des Krieges in Kontakt mit französischen Chemikern. Er hielt den Dampf zunächst für eine Chlorverbindung, kam aber bald ebenfalls zu dem Schluss, dass es sich um ein eigenständiges Element handelte. Beide erkannten Courtois als eigentlichen Entdecker an. Im Periodensystem trägt Iod, oft auch Jod geschrieben, die Ordnungszahl 53. Wenige Jahre später fand ein Arzt in Genf eine medizinische Spur des neuen Elements."
+    },
+    {
+     "title": "Die alte Schwammkur",
+     "text": "Gegen den Kropf, eine Vergrößerung der Schilddrüse, verwendete man schon in der Antike verbrannte Meeresschwämme. 1815 berichtete Andrew Fyfe vor der Royal Society of Edinburgh, dass Schwämme Iod enthalten. Der Genfer Arzt Jean-François Coindet vermutete, dass Iod der wirksame Bestandteil der Asche von Schwämmen und Algen sei, und behandelte Kropfpatienten mit Iod. Im Juli 1820 stellte er seine Ergebnisse in Genf vor. Anhand der Iodverkäufe in Genfer Apotheken schätzte er, dass 1821 bereits etwa tausend Menschen Iod eingenommen hatten. In der Schweiz blieb der Kropf jedoch weit verbreitet, denn die Böden enthalten vor allem in den Berggebieten wenig Iod."
+    },
+    {
+     "title": "Iod im Salzstreuer",
+     "text": "Schon 1838 schlug man vor, Kochsalz mit Iod zu versetzen, weil Salz zu den wenigen Lebensmitteln gehört, die alle brauchen und sich leisten können. Umgesetzt wurde die Idee in der Schweiz erst 1922: Im Kanton Appenzell Ausserrhoden erreichte der Arzt Hans Eggenberger über eine Volksinitiative, dass iodiertes Salz ausgegeben wurde. Später folgte das ganze Land. Seitdem sind schwere Erkrankungen der Schilddrüse durch Iodmangel in der Schweiz weitgehend verschwunden. So führt ein Weg vom dichten Fell der Seeotter über Seeigel, Tangwälder und Schießpulver bis zum Salzstreuer auf dem Küchentisch."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Marine Mammal Commission: Southern Sea Otter",
+     "url": "https://www.mmc.gov/priority-topics/species-of-concern/southern-sea-otter/"
+    },
+    {
+     "title": "UC Davis Wildlife Health Center: Sea Otter Facts",
+     "url": "https://whc.vetmed.ucdavis.edu/programs-projects/ca-conservation/sea-otter/facts"
+    },
+    {
+     "title": "Alaska Department of Fish and Game: Sounds Wild – Sea Otters",
+     "url": "https://www.adfg.alaska.gov/index.cfm?adfg=soundswild.episode&id=sea-otters"
+    },
+    {
+     "title": "California Department of Fish and Game: California's Living Marine Resources – Sea Otter",
+     "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=34343"
+    },
+    {
+     "title": "Sea Otter Savvy: We were here – sea otters",
+     "url": "https://www.seaottersavvy.org/we-were-here-seaotters"
+    },
+    {
+     "title": "Santa Maria Times: The California sea otter",
+     "url": "https://santamariatimes.com/opinion/columnists/the-california-sea-otter-graceful-intelligent-and-a-survivor-mark-james-miller/article_29a1b6a5-ba77-48d1-91a2-d44ea8585e33.html"
+    },
+    {
+     "title": "Estes & Palmisano (1974): Sea Otters: Their Role in Structuring Nearshore Communities, Science 185, 1058–1060",
+     "url": "https://www.science.org/doi/10.1126/science.185.4156.1058"
+    },
+    {
+     "title": "Semantic Scholar: Estes & Palmisano 1974 (Abstract)",
+     "url": "https://www.semanticscholar.org/paper/Sea-otters:-their-role-in-structuring-nearshore-Estes-Palmisano/a831f4240924b776457233bb14562d428390454e"
+    },
+    {
+     "title": "NOAA Ocean Service: What is a kelp forest?",
+     "url": "https://oceanservice.noaa.gov/facts/kelp.html"
+    },
+    {
+     "title": "Royal Society of Chemistry: Iodine",
+     "url": "https://periodic-table.rsc.org/element/53/iodine"
+    },
+    {
+     "title": "Encyclopedia.com: Courtois, Bernard",
+     "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/courtois-bernard"
+    },
+    {
+     "title": "Science in School: Purple fumes – the importance of iodine",
+     "url": "https://scienceinschool.org/article/2013/iodine/"
+    },
+    {
+     "title": "Wikipedia: Bernard Courtois",
+     "url": "https://en.wikipedia.org/wiki/Bernard_Courtois"
+    },
+    {
+     "title": "Eurothyroid: Jean-François Coindet",
+     "url": "https://www.eurothyroid.com/about/met/coindet.html"
+    },
+    {
+     "title": "Springer: Iodine (Buchkapitel)",
+     "url": "https://link.springer.com/chapter/10.1007/978-1-4684-0793-8_4"
+    },
+    {
+     "title": "SRF Wissen: Schleichender Jodmangel in der Schweiz",
+     "url": "https://www.srf.ch/wissen/gesundheit/schleichender-jodmangel-in-der-schweiz"
+    },
+    {
+     "title": "Blick: Seit 100 Jahren ist Jod im Salz",
+     "url": "https://www.blick.ch/schweiz/kropf-und-kretinismus-jod-im-salz-stoppte-vor-hundert-jahren-eine-gesundheitskrise-id17939640.html"
+    },
+    {
+     "title": "Blick: Wie die Schweiz den Kampf gegen den Kropf gewann",
+     "url": "https://www.blick.ch/news/vor-101-jahren-wie-die-schweiz-den-kampf-gegen-den-kropf-gewann-id19028772.html"
+    },
+    {
+     "title": "Wikipedia: Hans Eggenberger",
+     "url": "https://de.wikipedia.org/wiki/Hans_Eggenberger"
+    }
+   ]
+  },
+  "2026-11-05": {
+   "topic": "astro",
+   "tag": "Deep Space Walk",
+   "illu": "pulsar",
+   "accent": "#a678f0",
+   "title": "Ein Funksignal im 18-Minuten-Takt",
+   "body": [
+    "Seit Jahrzehnten gelten Pulsare als die Uhrwerke des Himmels. Die schnell rotierenden Neutronensterne schicken bei jeder Umdrehung einen Radiopuls zur Erde, und das so regelmäßig, dass sie sich mit Atomuhren messen können. Typische Pulsare drehen sich in Sekundenbruchteilen oder in wenigen Sekunden. Umso mehr überraschte 2022 ein Fund aus Westaustralien: eine Radioquelle, die ebenfalls in einem festen Takt pulsiert, aber nur etwa alle 18 Minuten. Nach gängigem Verständnis dürfte ein so langsam rotierendes Objekt kaum noch Radiowellen aussenden. Die Quelle trägt den sperrigen Namen GLEAM-X J162759.5−523504.3 und wird meist zu GLEAM-X J1627 abgekürzt. Mit ihr rückte eine Gruppe rätselhafter Objekte in den Blick der Forschung, die langperiodischen Radiotransienten.",
+    "## Ein Fund in den Archivdaten",
+    "Gefunden wurde das Signal nicht bei einer gezielten Suche, sondern in Archivdaten. Das Murchison Widefield Array (MWA) ist ein Radioteleskop aus vielen kleinen, fest installierten Antennen im australischen Outback. Für die Himmelsdurchmusterung GLEAM-X kartierte es den Himmel bei niedrigen Radiofrequenzen. In diesen Daten bemerkte ein Team um die Radioastronomin Natasha Hurley-Walker eine Quelle, die mal auftauchte und dann wieder verschwand. Die Gruppe veröffentlichte ihre Analyse 2022 in der Fachzeitschrift „Nature“ unter dem Titel „A radio transient with unusually slow periodic emission“, auf Deutsch etwa: ein Radiotransient mit ungewöhnlich langsamer periodischer Emission.",
+    "Aktiv war die Quelle zwischen Januar und März 2018. In dieser Zeit schwankte ihre Helligkeit stark. In ihren hellsten Momenten gehörte sie zu den auffälligen Objekten am niederfrequenten Radiohimmel und erreichte Flussdichten von einigen zehn Jansky. Danach war sie in den Daten nicht mehr zu finden.",
+    "## Ein Takt von 1091 Sekunden",
+    "Das Bemerkenswerte war der Rhythmus. Die Pulse kamen alle 1091 Sekunden, also alle 18,18 Minuten. Jeder Puls dauerte etwa 30 bis 60 Sekunden. Die Quelle sendete demnach nur während eines kleinen Teils jedes Zyklus, den Rest der Zeit blieb sie still. Außerdem war die Strahlung zu rund 88 Prozent linear polarisiert, schwang also überwiegend in einer bestimmten Ebene.",
+    "Diese Eigenschaften verraten etwas darüber, wie die Strahlung entsteht. Die abgeschätzte Helligkeitstemperatur liegt bei rund 10¹⁶ Kelvin. Dabei handelt es sich nicht um die Temperatur eines Gases, sondern um eine Rechengröße. Sie gibt an, wie heiß ein gewöhnlicher Strahler sein müsste, um so hell zu leuchten. Kein heißes Gas schafft das. Der Wert spricht für kohärente Strahlung, bei der viele geladene Teilchen im Gleichtakt abstrahlen. Diesen Mechanismus kennt man von Pulsaren. Die Periode war jedoch hunderte Male länger als die typischer Radiopulsare.",
+    "## Woher kommt die Energie?",
+    "Ein gewöhnlicher Pulsar bezieht seine Radioleistung aus seiner Rotation. Er wird langsam abgebremst, und ein kleiner Teil der frei werdenden Bewegungsenergie wird zu Radiostrahlung. Bei GLEAM-X J1627 geht diese Rechnung nicht auf. Die Messungen ergaben, dass sich die Periode höchstens um etwa 1,2 Milliardstel Sekunde pro Sekunde ändert. Nimmt man einen Neutronenstern an, folgt daraus eine Bremsleistung von höchstens rund 10²⁸ erg pro Sekunde. Die Radioleuchtkraft lag mit etwa 4 × 10³¹ erg pro Sekunde um Größenordnungen darüber.",
+    "Die Strahlung muss also aus einer anderen Quelle gespeist werden. Das Entdeckerteam vermutete deshalb einen magnetischen Ursprung. Es deutete das Objekt vorläufig als Magnetar mit ultralanger Periode, also als Neutronenstern mit einem extrem starken Magnetfeld, dessen Energie die Radioblitze antreibt. Als Alternative kam ein ungewöhnlicher, stark magnetisierter Weißer Zwerg infrage. Die Frage blieb offen, denn keine der beiden Deutungen passte ohne Weiteres zu allen Beobachtungen.",
+    "## Der Blick im Röntgenlicht",
+    "Magnetare leuchten meist auch im Röntgenbereich. Eine Gruppe um die Astrophysikerin Nanda Rea beobachtete die Quelle deshalb am 22. und 23. Januar 2022 rund 30.000 Sekunden lang mit dem Röntgenteleskop Chandra. Gleichzeitig liefen Radiobeobachtungen mit dem MWA, mit MeerKAT in Südafrika und mit dem Australia Telescope Compact Array. Das Ergebnis erschien 2022 im „Astrophysical Journal“ und fiel im Wesentlichen negativ aus. Im Energiebereich von 0,3 bis 8 Kiloelektronenvolt war nichts zu sehen, und auch im Radiobereich zeigte sich die Quelle in dieser Zeit nicht.",
+    "Auch ein Nichtnachweis liefert Informationen, denn er setzt eine Obergrenze: Wäre die Quelle im Röntgenlicht heller, hätte Chandra sie gesehen. Zusätzlich suchte das Team in Himmelsaufnahmen im sichtbaren und infraroten Licht nach einem Gegenstück. Innerhalb von zwei Bogensekunden um die Radioposition fanden sich zwei Kandidaten. Begleitende Simulationen zur Entwicklung von Magnetfeld und Temperatur in Neutronensternen sollten klären, unter welchen Bedingungen ein solches Objekt so langsam rotieren und trotzdem Radiowellen aussenden kann.",
+    "## Ein Wettstreit der Erklärungen",
+    "Kurz nach der Entdeckung erschienen mehrere theoretische Arbeiten. Jonathan Katz schlug 2022 in „Astrophysics and Space Science“ vor, GLEAM-X J1627 könne ein Weißer-Zwerg-Pulsar sein. Er argumentierte, dass kein Begleitstern bekannt sei, mit dem das Objekt wechselwirken könnte. Es verhalte sich also wie ein klassischer Pulsar, nur mit einer weit längeren Periode. Abraham Loeb und Dan Maoz hielten in einer Kurzmitteilung desselben Jahres einen heißen Unterzwerg für die wahrscheinlichere Erklärung, also einen Stern, der sich auf dem Weg zum Weißen Zwerg befindet.",
+    "Andere Arbeiten blieben beim Neutronenstern. Sie erklärten die langsame Drehung mit Materie, die nach der Supernova auf den jungen Stern zurückgefallen ist. Eine solche Scheibe könnte ihn früh stark abgebremst haben. Eine Arbeit von 2023 prüfte, ob die 18 Minuten statt einer Drehung auch eine Taumelbewegung der Rotationsachse sein könnten. Ihr Ergebnis: Für eine solche erzwungene Präzession ist die Periode zu kurz. Eine Studie von 2024 untersucht schon im Titel, wie Magnetare mit ultralanger Periode jenseits der sogenannten Todeslinie Radiowellen aussenden können. Gemeint ist die theoretische Grenze, ab der ein rotierender Neutronenstern eigentlich keine Radiostrahlung mehr erzeugen sollte.",
+    "## Kein Einzelfall",
+    "Ob GLEAM-X J1627 ein Neutronenstern oder ein Weißer Zwerg ist, bleibt offen. Klar ist inzwischen, dass das Objekt nicht allein ist. 2023 berichtete ein Team um Hurley-Walker in „Nature“ über einen weiteren langperiodischen Radiotransienten. Der Titel der Arbeit fasst die Überraschung zusammen: „A long-period radio transient active for three decades“, eine langperiodische Radioquelle, die seit drei Jahrzehnten aktiv ist.",
+    "So wird aus einer Kuriosität ein eigenes Forschungsfeld. Die langsamen Taktgeber deuten darauf hin, dass die vertrauten Kategorien der Sternreste, also Pulsar, Magnetar und Weißer Zwerg, die Vielfalt der Natur nicht vollständig erfassen. Manche Entdeckungen gelingen, weil Teleskope immer empfindlicher werden. Diese gelang auch deshalb, weil jemand in vorhandenen Daten auf etwas geachtet hat, das regelmäßig wiederkam."
+   ],
+   "source": "Hurley-Walker, N. et al., Nature 601, 526–530 (2022), doi:10.1038/s41586-021-04272-x; Rea, N. et al., Astrophysical Journal 940, 72 (2022); Katz, J. I., Astrophysics and Space Science 367, 108 (2022), arXiv:2203.08112; Loeb, A. & Maoz, D., Research Notes of the AAS 6, 27 (2022); Hurley-Walker, N. et al., Nature 619, 487–490 (2023), doi:10.1038/s41586-023-06202-5",
+   "sources": [
+    {
+     "title": "Hurley-Walker et al.: A radio transient with unusually slow periodic emission (Nature 601, 526–530, 2022)",
+     "url": "https://www.nature.com/articles/s41586-021-04272-x"
+    },
+    {
+     "title": "Rea et al.: Constraining the Nature of the 18 min Periodic Radio Transient GLEAM-X J162759.5-523504.3 (ApJ 940, 72)",
+     "url": "https://ui.adsabs.harvard.edu/abs/2022ApJ...940...72R"
+    },
+    {
+     "title": "Rea et al. (arXiv-Fassung)",
+     "url": "https://arxiv.org/abs/2210.01903"
+    },
+    {
+     "title": "Katz: GLEAM-X J162759.5-523504.3 as a White Dwarf Pulsar (Ap&SS 367, 108; arXiv:2203.08112)",
+     "url": "https://arxiv.org/abs/2203.08112"
+    },
+    {
+     "title": "Loeb & Maoz: Research Notes of the AAS 6, 27 (2022), ADS-Eintrag",
+     "url": "https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...27L"
+    },
+    {
+     "title": "Long-period Pulsars as Possible Outcomes of Supernova Fallback Accretion",
+     "url": "https://arxiv.org/abs/2201.11704"
+    },
+    {
+     "title": "Discussions on the Nature of GLEAM-X J162759.5–523504.3 (ApJ, 2023)",
+     "url": "https://iopscience.iop.org/article/10.3847/1538-4357/aca7fa"
+    },
+    {
+     "title": "Beyond the Rotational Deathline: Radio Emission from Ultra-long Period Magnetars",
+     "url": "https://arxiv.org/abs/2406.04135"
+    },
+    {
+     "title": "Hurley-Walker et al.: A long-period radio transient active for three decades (Nature, 2023)",
+     "url": "https://www.nature.com/articles/s41586-023-06202-5"
+    }
+   ]
+  },
+  "2026-11-07": {
+   "topic": "sa",
+   "word": "Aposiopese",
+   "kind": "Substantiv, feminin (die Aposiopese, Genitiv: der Aposiopese, Plural: die Aposiopesen); Fachwort aus Rhetorik und Stilkunde",
+   "meaning": "Eine Aposiopese ist der bewusste Abbruch einer Rede oder eines begonnenen Gedankens vor der entscheidenden Aussage.",
+   "origin": "Das Wort ist griechisch-lateinischer Herkunft und bedeutet „das Verstummen“.",
+   "sources": [
+    {
+     "title": "Duden: Aposiopese – Rechtschreibung, Bedeutung, Definition, Herkunft",
+     "url": "https://www.duden.de/rechtschreibung/Aposiopese"
+    }
+   ]
+  }
+ }
+}

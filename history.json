@@ -556,5 +556,29 @@
   "key": "so:claudius ptolemäus",
   "date": "eingebaut",
   "label": "Claudius Ptolemäus"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:georg christoph lichtenberg",
+  "date": "2026-11-02",
+  "label": "georg christoph lichtenberg"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:vom seeotter zum salzstreuer",
+  "date": "2026-11-04",
+  "label": "vom seeotter zum salzstreuer"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:ein funksignal im 18 minuten takt",
+  "date": "2026-11-05",
+  "label": "ein funksignal im 18 minuten takt"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:aposiopese",
+  "date": "2026-11-07",
+  "label": "aposiopese"
  }
 ]
