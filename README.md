@@ -11,10 +11,10 @@ prüft sie automatisch (Form + Faktenprüfung mit Websuche) und veröffentlicht 
 | `history.json` | Alles bereits Verwendete – verhindert Wiederholungen |
 | `docs/latest.json` | Was die App lädt (diese und die vorige Woche) |
 | `docs/weeks/*.json` | Archiv je Woche · `docs/claims/*.json`: Belege je Tag |
-| `docs/datenschutz.html` | Datenschutzerklärung (Adresse für App Store Connect) |
+| `docs/datenschutz.html` | Datenschutzerklärung – https://visualice-creates.github.io/catcat-meanwhile/datenschutz.html (für App Store Connect) |
 
 ## Einmalig einrichten
-1. Repository auf GitHub anlegen (öffentlich, z. B. `meanwhile-inhalte`) und diesen Ordner hochladen.
+1. Repository: https://github.com/visualice-creates/catcat-meanwhile (öffentlich) – dieser Ordner ist sein Inhalt.
 2. **Settings → Secrets and variables → Actions → New repository secret:** `ANTHROPIC_API_KEY` (aus der Anthropic Console).
 3. **Settings → Pages:** Source „Deploy from a branch“, Branch `main`, Ordner `/docs`.
 4. **Actions → Wocheninhalte → Run workflow** einmal von Hand starten (optional mit Datum eines Montags).
