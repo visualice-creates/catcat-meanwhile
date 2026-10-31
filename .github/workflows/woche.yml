@@ -1,0 +1,44 @@
+# Erzeugt jeden Sonntag die Inhalte der kommenden Woche und veröffentlicht sie über GitHub Pages (Ordner docs/).
+# Einmalig einrichten: Settings → Secrets and variables → Actions → ANTHROPIC_API_KEY;
+#                      Settings → Pages → Branch "main", Ordner "/docs".
+name: Wocheninhalte
+
+on:
+  schedule:
+    - cron: "0 15 * * 0"   # sonntags 15:00 UTC (16 Uhr Winter- bzw. 17 Uhr Sommerzeit)
+  workflow_dispatch:        # zum Testen per Hand starten (Actions → Wocheninhalte → Run workflow)
+    inputs:
+      week:
+        description: "Montag der Woche (JJJJ-MM-TT), leer = kommende Woche"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wocheninhalte
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python test_validate.py
+      - name: Woche erzeugen und prüfen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WEEK: ${{ github.event.inputs.week }}   # als Variable, nicht direkt ins Skript eingesetzt (Schutz vor Einschleusen)
+        run: python generate.py ${WEEK:+--week "$WEEK"}
+      - name: Veröffentlichen
+        run: |
+          git config user.name "meanwhile-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs history.json
+          git diff --cached --quiet || git commit -m "Inhalte für die Woche ab $(date -d 'next monday' +%F)"
+          git push

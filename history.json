@@ -1,0 +1,560 @@
+[
+ {
+  "topic": "quote",
+  "key": "quote:marie curie",
+  "date": "eingebaut",
+  "label": "Marie Curie"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:immanuel kant",
+  "date": "eingebaut",
+  "label": "Immanuel Kant"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:rosa luxemburg",
+  "date": "eingebaut",
+  "label": "Rosa Luxemburg"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:isaac newton",
+  "date": "eingebaut",
+  "label": "Isaac Newton"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:ludwig wittgenstein",
+  "date": "eingebaut",
+  "label": "Ludwig Wittgenstein"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:albert einstein",
+  "date": "eingebaut",
+  "label": "Albert Einstein"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:willy brandt",
+  "date": "eingebaut",
+  "label": "Willy Brandt"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:carl sagan",
+  "date": "eingebaut",
+  "label": "Carl Sagan"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:hannah arendt",
+  "date": "eingebaut",
+  "label": "Hannah Arendt"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:richard feynman",
+  "date": "eingebaut",
+  "label": "Richard Feynman"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:simone de beauvoir",
+  "date": "eingebaut",
+  "label": "Simone de Beauvoir"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:sokrates",
+  "date": "eingebaut",
+  "label": "Sokrates"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:vögel sind dinosaurier",
+  "date": "eingebaut",
+  "label": "Vögel sind Dinosaurier"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:wie die sauropoden so riesig wurden",
+  "date": "eingebaut",
+  "label": "Wie die Sauropoden so riesig wurden"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:wie schnell war t rex wirklich",
+  "date": "eingebaut",
+  "label": "Wie schnell war T. rex wirklich?"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:federn farben schuppen",
+  "date": "eingebaut",
+  "label": "Federn, Farben, Schuppen"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:eier nester und brütende eltern",
+  "date": "eingebaut",
+  "label": "Eier, Nester und brütende Eltern"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:der letzte tag der dinosaurier",
+  "date": "eingebaut",
+  "label": "Der letzte Tag der Dinosaurier"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:eine galaxie aus der kosmischen morgendämmerung",
+  "date": "eingebaut",
+  "label": "Eine Galaxie aus der kosmischen Morgendämmerung"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:das erste bild unseres eigenen schwarzen lochs",
+  "date": "eingebaut",
+  "label": "Das erste Bild unseres eigenen Schwarzen Lochs"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:das universum brummt in gravitationswellen",
+  "date": "eingebaut",
+  "label": "Das Universum brummt in Gravitationswellen"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:ein dritter besucher von außerhalb",
+  "date": "eingebaut",
+  "label": "Ein dritter Besucher von außerhalb"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:ein perfekter einsteinring vor der haustür",
+  "date": "eingebaut",
+  "label": "Ein perfekter Einsteinring vor der Haustür"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:das rubin observatorium öffnet die augen",
+  "date": "eingebaut",
+  "label": "Das Rubin-Observatorium öffnet die Augen"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:vom honigglas zu den wikingern",
+  "date": "eingebaut",
+  "label": "Vom Honigglas zu den Wikingern"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:drei herzen und ein ausbruch",
+  "date": "eingebaut",
+  "label": "Drei Herzen und ein Ausbruch"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:ein tag der länger dauert als ein jahr",
+  "date": "eingebaut",
+  "label": "Ein Tag, der länger dauert als ein Jahr"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:von kleopatra zur pyramide unter dem berg",
+  "date": "eingebaut",
+  "label": "Von Kleopatra zur Pyramide unter dem Berg"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:von haien zu kohle und zurück",
+  "date": "eingebaut",
+  "label": "Von Haien zu Kohle und zurück"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:vom wachsenden turm zur uhr auf see",
+  "date": "eingebaut",
+  "label": "Vom wachsenden Turm zur Uhr auf See"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:hypericum perforatum",
+  "date": "eingebaut",
+  "label": "Hypericum perforatum"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:thymus vulgaris",
+  "date": "eingebaut",
+  "label": "Thymus vulgaris"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:salvia officinalis",
+  "date": "eingebaut",
+  "label": "Salvia officinalis"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:tilia cordata",
+  "date": "eingebaut",
+  "label": "Tilia cordata"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:melissa officinalis",
+  "date": "eingebaut",
+  "label": "Melissa officinalis"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:matricaria chamomilla",
+  "date": "eingebaut",
+  "label": "Matricaria chamomilla"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:mentha piperita",
+  "date": "eingebaut",
+  "label": "Mentha × piperita"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:foeniculum vulgare",
+  "date": "eingebaut",
+  "label": "Foeniculum vulgare"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:plantago lanceolata",
+  "date": "eingebaut",
+  "label": "Plantago lanceolata"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:lavandula angustifolia",
+  "date": "eingebaut",
+  "label": "Lavandula angustifolia"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:valeriana officinalis",
+  "date": "eingebaut",
+  "label": "Valeriana officinalis"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:calendula officinalis",
+  "date": "eingebaut",
+  "label": "Calendula officinalis"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:urtica dioica",
+  "date": "eingebaut",
+  "label": "Urtica dioica"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:salvia rosmarinus",
+  "date": "eingebaut",
+  "label": "Salvia rosmarinus"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:lethologika",
+  "date": "eingebaut",
+  "label": "Lethologika"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:ubiquität",
+  "date": "eingebaut",
+  "label": "Ubiquität"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:petrichor",
+  "date": "eingebaut",
+  "label": "Petrichor"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:serendipität",
+  "date": "eingebaut",
+  "label": "Serendipität"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:tsundoku",
+  "date": "eingebaut",
+  "label": "Tsundoku"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:apophänie",
+  "date": "eingebaut",
+  "label": "Apophänie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:pareidolie",
+  "date": "eingebaut",
+  "label": "Pareidolie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:liminalität",
+  "date": "eingebaut",
+  "label": "Liminalität"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:palimpsest",
+  "date": "eingebaut",
+  "label": "Palimpsest"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:ataraxie",
+  "date": "eingebaut",
+  "label": "Ataraxie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:akrasie",
+  "date": "eingebaut",
+  "label": "Akrasie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:eudaimonie",
+  "date": "eingebaut",
+  "label": "Eudaimonie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:krepuskulär",
+  "date": "eingebaut",
+  "label": "krepuskulär"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:hypnagog",
+  "date": "eingebaut",
+  "label": "hypnagog"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:mondegreen",
+  "date": "eingebaut",
+  "label": "Mondegreen"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:apotropäisch",
+  "date": "eingebaut",
+  "label": "apotropäisch"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:philtrum",
+  "date": "eingebaut",
+  "label": "Philtrum"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:glabella",
+  "date": "eingebaut",
+  "label": "Glabella"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:synästhesie",
+  "date": "eingebaut",
+  "label": "Synästhesie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:prosopagnosie",
+  "date": "eingebaut",
+  "label": "Prosopagnosie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:kalokagathie",
+  "date": "eingebaut",
+  "label": "Kalokagathie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:wabi sabi",
+  "date": "eingebaut",
+  "label": "Wabi-Sabi"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:komorebi",
+  "date": "eingebaut",
+  "label": "Komorebi"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:saudade",
+  "date": "eingebaut",
+  "label": "Saudade"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:desiderat",
+  "date": "eingebaut",
+  "label": "Desiderat"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:quisquilien",
+  "date": "eingebaut",
+  "label": "Quisquilien"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:fisimatenten",
+  "date": "eingebaut",
+  "label": "Fisimatenten"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:verschlimmbessern",
+  "date": "eingebaut",
+  "label": "verschlimmbessern"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:kummerspeck",
+  "date": "eingebaut",
+  "label": "Kummerspeck"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:ultracrepidarian",
+  "date": "eingebaut",
+  "label": "Ultracrepidarian"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:onomatopoesie",
+  "date": "eingebaut",
+  "label": "Onomatopoesie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:sesquipedal",
+  "date": "eingebaut",
+  "label": "sesquipedal"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:epiphanie",
+  "date": "eingebaut",
+  "label": "Epiphanie"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:lakonisch",
+  "date": "eingebaut",
+  "label": "lakonisch"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:firlefanz",
+  "date": "eingebaut",
+  "label": "Firlefanz"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:schnapsidee",
+  "date": "eingebaut",
+  "label": "Schnapsidee"
+ },
+ {
+  "topic": "so",
+  "key": "so:immanuel kant",
+  "date": "eingebaut",
+  "label": "Immanuel Kant"
+ },
+ {
+  "topic": "so",
+  "key": "so:richard feynman",
+  "date": "eingebaut",
+  "label": "Richard Feynman"
+ },
+ {
+  "topic": "so",
+  "key": "so:blaise pascal",
+  "date": "eingebaut",
+  "label": "Blaise Pascal"
+ },
+ {
+  "topic": "so",
+  "key": "so:albert einstein",
+  "date": "eingebaut",
+  "label": "Albert Einstein"
+ },
+ {
+  "topic": "so",
+  "key": "so:carl sagan",
+  "date": "eingebaut",
+  "label": "Carl Sagan"
+ },
+ {
+  "topic": "so",
+  "key": "so:edwin hubble",
+  "date": "eingebaut",
+  "label": "Edwin Hubble"
+ },
+ {
+  "topic": "so",
+  "key": "so:seneca",
+  "date": "eingebaut",
+  "label": "Seneca"
+ },
+ {
+  "topic": "so",
+  "key": "so:nikolaus kopernikus",
+  "date": "eingebaut",
+  "label": "Nikolaus Kopernikus"
+ },
+ {
+  "topic": "so",
+  "key": "so:galileo galilei",
+  "date": "eingebaut",
+  "label": "Galileo Galilei"
+ },
+ {
+  "topic": "so",
+  "key": "so:douglas adams",
+  "date": "eingebaut",
+  "label": "Douglas Adams"
+ },
+ {
+  "topic": "so",
+  "key": "so:stephen hawking",
+  "date": "eingebaut",
+  "label": "Stephen Hawking"
+ },
+ {
+  "topic": "so",
+  "key": "so:fred hoyle",
+  "date": "eingebaut",
+  "label": "Fred Hoyle"
+ },
+ {
+  "topic": "so",
+  "key": "so:claudius ptolemäus",
+  "date": "eingebaut",
+  "label": "Claudius Ptolemäus"
+ }
+]
