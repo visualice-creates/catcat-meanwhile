@@ -5,9 +5,17 @@ damit ein Tag aus dem Netz genauso dargestellt wird wie ein eingebauter.
 """
 
 MODEL = "claude-opus-5-5"
-EFFORT = "high"          # gründlich recherchieren und schreiben; Claude Opus 5.5 nimmt sonst "medium"
+# Kosten niedrig halten: Schreiben mit mittlerer Denktiefe, die Faktenprüfung gründlich (dort lohnt es sich);
+# Websuchen begrenzt – jede Suche kostet etwas und bringt viele Eingabe-Tokens mit.
+EFFORT_WRITE = "medium"
+EFFORT_VERIFY = "high"
 MAX_TOKENS = 32000       # Platz für Denken, Suchen und einen 5-Minuten-Artikel
-WEB_SEARCH = {"type": "web_search_20260209", "name": "web_search", "max_uses": 8}
+LONG_TOPICS = ("paleo", "astro", "fact")
+
+
+def web_search(topic, verify=False):
+    uses = (5 if verify else 6) if topic in LONG_TOPICS else 3
+    return {"type": "web_search_20260209", "name": "web_search", "max_uses": uses}
 
 # Wochenplan ab 2. November 2026 (Montag = 0 … Sonntag = 6), wie SCHEDULES in web/content.js
 PLAN = {0: "quote", 1: "paleo", 2: "fact", 3: "astro", 4: "plant", 5: "sa", 6: "so"}

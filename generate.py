@@ -4,7 +4,7 @@ Ablauf (läuft sonntags über GitHub Actions, siehe .github/workflows/woche.yml)
   1. Alle 7 Tage als ein Batch an Claude (halber Preis); Claude recherchiert jeden Inhalt per Websuche.
   2. Formprüfung (validate.py): Pflichtfelder, Länge, Motive, Belege, keine Wiederholung.
   3. Faktenprüfung: zweiter Batch, eine frische Claude-Anfrage prüft jeden Inhalt mit der Websuche.
-  4. Was durchfällt, wird bis zu zweimal einzeln repariert und erneut geprüft.
+  4. Was durchfällt, wird bis zu zweimal repariert und erneut geprüft (ebenfalls als Batch).
   5. Was dann noch durchfällt, wird nicht veröffentlicht – die App nimmt an dem Tag ihren eingebauten Inhalt.
   6. Ergebnis nach docs/ (GitHub Pages): docs/weeks/<Montag>.json und docs/latest.json.
 
@@ -37,14 +37,15 @@ usage = {"input": 0, "output": 0, "searches": 0}
 
 # ---------- Anfragen ----------
 
-def params(user_text, out_schema):
+def params(user_text, out_schema, topic, verify=False):
     return {
         "model": specs.MODEL,
         "max_tokens": specs.MAX_TOKENS,
         "system": [{"type": "text", "text": specs.SYSTEM, "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user_text}],
-        "tools": [specs.WEB_SEARCH],
-        "output_config": {"effort": specs.EFFORT, "format": {"type": "json_schema", "schema": out_schema}},
+        "tools": [specs.web_search(topic, verify)],
+        "output_config": {"effort": specs.EFFORT_VERIFY if verify else specs.EFFORT_WRITE,
+                          "format": {"type": "json_schema", "schema": out_schema}},
     }
 
 
@@ -115,13 +116,6 @@ def week_dates(monday):
     return [(monday + dt.timedelta(days=i)) for i in range(7)]
 
 
-def verify(topic, item):
-    """Faktenprüfung einzeln (bei Reparaturen). Gibt die Liste der Probleme zurück."""
-    p = params(specs.verify_prompt(topic, item), specs.VERDICT_SCHEMA)
-    verdict = finish(p, call(p))
-    return [] if verdict["ok"] else (verdict["problems"] or [{"claim": "-", "issue": "nicht bestätigt", "correction": ""}])
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--week", help="Montag der Woche (JJJJ-MM-TT); Standard: kommender Montag")
@@ -134,25 +128,30 @@ def main():
     days = {d.isoformat(): specs.PLAN[d.weekday()] for d in week_dates(monday)}
     print(f"Woche ab {monday}: " + ", ".join(f"{d}={t}" for d, t in days.items()), flush=True)
 
-    # 1. Erzeugen (Batch)
-    gen = run_batch({f"gen-{d}": params(specs.prompt(t, d, avoid_list(history, t)), specs.schema(t)) for d, t in days.items()})
-    items, problems = {}, {}
-    for d, t in days.items():
-        p, msg, err = gen[f"gen-{d}"]
-        try:
-            if err:
-                raise RuntimeError(err)
-            items[d] = finish(p, msg)
-            problems[d] = [{"claim": "Form", "issue": e, "correction": ""} for e in check(t, items[d], used)]
-        except Exception as e:  # noqa: BLE001 – jeder Fehler führt zur Reparatur
-            items[d], problems[d] = None, [{"claim": "Erzeugung", "issue": str(e), "correction": ""}]
+    items = {d: None for d in days}
+    problems = {d: [] for d in days}
 
-    # 2. Faktenprüfung (Batch) für alles, was die Formprüfung bestanden hat
-    to_verify = {d: t for d, t in days.items() if items[d] and not problems[d]}
-    if to_verify:
-        ver = run_batch({f"ver-{d}": params(specs.verify_prompt(t, items[d]), specs.VERDICT_SCHEMA) for d, t in to_verify.items()})
-        for d, t in to_verify.items():
-            p, msg, err = ver[f"ver-{d}"]
+    def write_round(jobs):
+        """Erzeugt oder repariert als Batch und macht gleich die Formprüfung."""
+        res = run_batch({f"gen-{d}": p for d, p in jobs.items()})
+        for d in jobs:
+            p, msg, err = res[f"gen-{d}"]
+            try:
+                if err:
+                    raise RuntimeError(err)
+                items[d] = finish(p, msg)
+                problems[d] = [{"claim": "Form", "issue": e, "correction": ""} for e in check(days[d], items[d], used)]
+            except Exception as e:  # noqa: BLE001 – jeder Fehler führt zur Reparatur
+                problems[d] = [{"claim": "Erzeugung", "issue": str(e), "correction": ""}]
+
+    def verify_round(ds):
+        """Faktenprüfung als Batch für alles, was die Formprüfung bestanden hat."""
+        ds = [d for d in ds if items[d] and not problems[d]]
+        if not ds:
+            return
+        res = run_batch({f"ver-{d}": params(specs.verify_prompt(days[d], items[d]), specs.VERDICT_SCHEMA, days[d], verify=True) for d in ds})
+        for d in ds:
+            p, msg, err = res[f"ver-{d}"]
             try:
                 if err:
                     raise RuntimeError(err)
@@ -161,22 +160,21 @@ def main():
             except Exception as e:  # noqa: BLE001
                 problems[d] = [{"claim": "Prüfung", "issue": str(e), "correction": ""}]
 
-    # 3. Reparieren, was durchgefallen ist
-    for d, t in days.items():
-        for attempt in range(MAX_REPAIRS):
-            if not problems[d]:
-                break
-            print(f"{d} ({t}): Reparatur {attempt + 1} – {problems[d]}", flush=True)
-            try:
-                if items[d] is None:
-                    p = params(specs.prompt(t, d, avoid_list(history, t)), specs.schema(t))
-                else:
-                    p = params(specs.repair_prompt(t, items[d], problems[d]), specs.schema(t))
-                items[d] = finish(p, call(p))
-                form = check(t, items[d], used)
-                problems[d] = [{"claim": "Form", "issue": e, "correction": ""} for e in form] if form else verify(t, items[d])
-            except Exception as e:  # noqa: BLE001
-                problems[d] = [{"claim": "Reparatur", "issue": str(e), "correction": ""}]
+    # 1.–2. Erzeugen und prüfen – alles als Batch (halber Preis)
+    write_round({d: params(specs.prompt(t, d, avoid_list(history, t)), specs.schema(t), t) for d, t in days.items()})
+    verify_round(list(days))
+
+    # 3. Reparieren, was durchgefallen ist – ebenfalls als Batch, höchstens zweimal
+    for attempt in range(MAX_REPAIRS):
+        failing = [d for d in days if problems[d]]
+        if not failing:
+            break
+        for d in failing:
+            print(f"{d} ({days[d]}): Reparatur {attempt + 1} – {problems[d]}", flush=True)
+        write_round({d: params(specs.repair_prompt(days[d], items[d], problems[d]) if items[d]
+                               else specs.prompt(days[d], d, avoid_list(history, days[d])), specs.schema(days[d]), days[d])
+                     for d in failing})
+        verify_round(failing)
 
     # 4. Veröffentlichen
     published, skipped = {}, []
@@ -203,7 +201,7 @@ def main():
     (DOCS / "latest.json").write_text(json.dumps({"generated": week["generated"], "days": merged}, ensure_ascii=False, indent=1))
     HISTORY.write_text(json.dumps(history, ensure_ascii=False, indent=1))
 
-    # Kosten grob (Batch = halber Preis; Reparaturen einzeln zum vollen Preis – hier vereinfacht als Batch gerechnet)
+    # Kosten grob: Batch = halber Preis (nur seltene Fortsetzungen nach pause_turn laufen einzeln)
     cost = usage["input"] / 1e6 * 4 * 0.5 + usage["output"] / 1e6 * 20 * 0.5 + usage["searches"] * 0.01
     print(f"Veröffentlicht: {len(published)}/7, ohne Inhalt (App nimmt eingebaute): {skipped or 'keine'}")
     print(f"Tokens: {usage['input']:,} ein / {usage['output']:,} aus, {usage['searches']} Suchen – ca. {cost:.2f} $")
