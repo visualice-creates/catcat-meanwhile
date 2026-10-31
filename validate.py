@@ -82,6 +82,8 @@ def check(topic, item, history_keys):
             need(f)
         if len(item.get("word", "")) > MAX_CHARS["word"]:
             errors.append("Wort zu lang fürs Sperrbild")
+        if len(item.get("kind", "")) > 30:
+            errors.append("Wortart zu lang (nur die Wortart, z. B. Substantiv)")
     elif topic == "so":
         for f in ("text", "author", "when"):
             need(f)

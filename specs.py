@@ -102,7 +102,7 @@ BRIEF = {
     "plant": "Freitag – ein Kraut („Flora Friday“), kurz. „name“: deutscher Name, „latin“: botanischer Name, „effect“: die Wirkung in einem Satz (vorsichtig, traditionelle Anwendung), "
              "„text“: 2–4 Sätze Wissenswertes (35–90 Wörter), inklusive wichtiger Warnhinweise, falls nötig.",
     "sa": "Samstag – „running out of words“: ein außergewöhnliches, schönes Wort (deutsch oder als Fremdwort im Deutschen gebräuchlich, gern auch ein Lehnwort aus einer anderen Sprache). "
-          "„kind“: Wortart, „meaning“: die Bedeutung in einem Satz, „origin“: Herkunft kurz. Das Wort höchstens 24 Zeichen.",
+          "„kind“: nur die Wortart in ein bis zwei Wörtern (z. B. Substantiv), „meaning“: die Bedeutung in einem Satz, „origin“: Herkunft in einem kurzen Satz. Das Wort höchstens 24 Zeichen.",
     "so": "Sonntag – „lost in space“: ein wörtlich belegtes Zitat über Sterne, Kosmos, Planeten oder das Universum, philosophisch oder naturwissenschaftlich, nicht esoterisch. "
           "„text“: das Zitat (deutsch), höchstens 260 Zeichen, ohne Anführungszeichen; „when“: Jahr · Werk oder Anlass.",
 }
