@@ -14,6 +14,10 @@ on:
 
 permissions:
   contents: write
+  issues: write   # für die Erinnerung, wenn der API-Schlüssel bald abläuft
+
+env:
+  KEY_EXPIRES: "2027-10-31"   # Ablaufdatum des Anthropic-API-Schlüssels (bei neuem Schlüssel anpassen)
 
 concurrency:
   group: wocheninhalte
@@ -28,6 +32,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Erinnerung, falls der API-Schlüssel bald abläuft
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          days=$(( ( $(date -d "$KEY_EXPIRES" +%s) - $(date +%s) ) / 86400 ))
+          echo "API-Schlüssel läuft in $days Tagen ab ($KEY_EXPIRES)"
+          title="API-Schlüssel läuft am $KEY_EXPIRES ab"
+          if [ "$days" -le 30 ] && [ -z "$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number')" ]; then
+            gh issue create --title "$title" --body "Der Anthropic-API-Schlüssel für den Wochen-Job läuft in $days Tagen ab. In der Anthropic Console einen neuen Schlüssel erstellen, unter Settings → Secrets and variables → Actions das Secret ANTHROPIC_API_KEY ersetzen und KEY_EXPIRES in .github/workflows/woche.yml anpassen. Danach dieses Issue schließen."
+          fi
       - run: pip install -r requirements.txt
       - run: python test_validate.py
       - name: Woche erzeugen und prüfen
