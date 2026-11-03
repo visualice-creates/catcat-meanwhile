@@ -9,7 +9,7 @@ MODEL = "claude-opus-5-5"
 # eine zweite, gründliche Anfrage prüft jeden Inhalt mit der Websuche. Schreiben mit mittlerer Denktiefe, Prüfen gründlich.
 EFFORT_WRITE = "medium"
 EFFORT_VERIFY = "high"
-MAX_TOKENS = 32000       # Platz für Denken, Suchen und einen 5-Minuten-Artikel
+MAX_TOKENS = 32000       # Platz für Denken, Suchen und einen 4-Minuten-Artikel
 LONG_TOPICS = ("paleo", "astro", "fact")
 
 
@@ -30,9 +30,9 @@ MOTIFS = {
 }
 ACCENTS = ["#e8643c", "#f2b33d", "#d9443a", "#e46aa0", "#a678f0", "#3fb6e0", "#47b39d", "#7fbf4d", "#4f8ef7", "#c98a4b"]
 
-# Lesezeit ~5 Minuten bei 190 Wörtern/Minute. Der Auftrag nennt engere Ziele (BRIEF), die Prüfung lässt etwas Spielraum,
+# Lesezeit ~4 Minuten bei 190 Wörtern/Minute. Der Auftrag nennt engere Ziele (BRIEF), die Prüfung lässt etwas Spielraum,
 # damit kein Inhalt an ein paar Wörtern scheitert.
-WORDS = {"article": (800, 1150), "chain": (740, 1100), "plant_text": (30, 100)}
+WORDS = {"article": (640, 920), "chain": (600, 880), "plant_text": (30, 100)}
 MAX_CHARS = {"quote": 300, "so": 260, "word": 24}
 
 
@@ -92,13 +92,13 @@ BRIEF = {
              "„headline“: 2–4 Wörter als Überschrift, „text“: das Zitat (deutsch), „role“: wer die Person war (kurz), "
              "„when“: Jahr · Werk oder Anlass, „tag“: Themenfeld (z. B. Philosophie). Das Zitat höchstens 300 Zeichen, ohne Anführungszeichen.",
     "paleo": "Dienstag – Dinosaurier & Urzeit („Dino-Dienstag“). Ein Artikel mit gesichertem Wissen oder einer neueren Entdeckung über Dinosaurier oder andere urzeitliche Lebewesen. "
-             "„body“: Absätze; der erste Absatz ist der Einstieg (2–4 Sätze), danach 4–6 Zwischenüberschriften als eigene Einträge, die mit „## “ beginnen. "
-             "Insgesamt 850–1100 Wörter (ca. 5 Minuten). „source“: die wichtigsten Fachquellen in einer Zeile.",
+             "„body“: Absätze; der erste Absatz ist der Einstieg (2–4 Sätze), danach 4–5 Zwischenüberschriften als eigene Einträge, die mit „## “ beginnen. "
+             "Insgesamt 680–860 Wörter (ca. 4 Minuten). „source“: die wichtigsten Fachquellen in einer Zeile.",
     "fact": "Mittwoch – Faktenkette („Senseless to know“). Eine überraschende Kette aus genau 9 Stationen: Jede Station ist ein wahrer, belegter Fakt, und jeder Fakt führt logisch zum nächsten "
             "(Beispiel: vom Honigglas über Bienen und Met bis zu den Wikingern). „headline“: Titel der Kette, „text“: ein Satz als Einstieg, "
-            "„chain“: 9 Stationen mit kurzem Titel und 70–110 Wörtern Text. Insgesamt 780–1050 Wörter. „source“: Quellen in einer Zeile.",
+            "„chain“: 9 Stationen mit kurzem Titel und 60–90 Wörtern Text. Insgesamt 620–820 Wörter. „source“: Quellen in einer Zeile.",
     "astro": "Donnerstag – Astrophysik („Deep Space Walk“). Ein Artikel über eine Entdeckung oder ein Phänomen aus Astronomie und Astrophysik, bevorzugt aus den letzten Jahren. "
-             "Aufbau wie beim Dino-Artikel: Einstieg, 4–6 Zwischenüberschriften mit „## “, 850–1100 Wörter. „source“: Originalarbeiten in einer Zeile.",
+             "Aufbau wie beim Dino-Artikel: Einstieg, 4–5 Zwischenüberschriften mit „## “, 680–860 Wörter. „source“: Originalarbeiten in einer Zeile.",
     "plant": "Freitag – ein Kraut („Flora Friday“), kurz. „name“: deutscher Name, „latin“: botanischer Name, „effect“: die Wirkung in einem Satz (vorsichtig, traditionelle Anwendung), "
              "„text“: 2–4 Sätze Wissenswertes (35–90 Wörter), inklusive wichtiger Warnhinweise, falls nötig.",
     "sa": "Samstag – „running out of words“: ein außergewöhnliches, schönes Wort (deutsch oder als Fremdwort im Deutschen gebräuchlich, gern auch ein Lehnwort aus einer anderen Sprache). "
