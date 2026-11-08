@@ -598,5 +598,35 @@
   "key": "so:marc aurel marcus aurelius römischer kaiser und stoischer philosoph",
   "date": "2026-11-08",
   "label": "marc aurel marcus aurelius römischer kaiser und stoischer philosoph"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:richard von weizsäcker",
+  "date": "2026-11-09",
+  "label": "richard von weizsäcker"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:der rote riese und sein leiser begleiter",
+  "date": "2026-11-12",
+  "label": "der rote riese und sein leiser begleiter"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:sambucus nigra",
+  "date": "2026-11-13",
+  "label": "sambucus nigra"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:sprezzatura",
+  "date": "2026-11-14",
+  "label": "sprezzatura"
+ },
+ {
+  "topic": "so",
+  "key": "so:johannes kepler",
+  "date": "2026-11-15",
+  "label": "johannes kepler"
  }
 ]
