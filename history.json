@@ -628,5 +628,17 @@
   "key": "so:johannes kepler",
   "date": "2026-11-15",
   "label": "johannes kepler"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:borealopelta der panzerdino der wie eine statue aussieht",
+  "date": "2026-11-10",
+  "label": "borealopelta der panzerdino der wie eine statue aussieht"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:von der banane zum dollar",
+  "date": "2026-11-11",
+  "label": "von der banane zum dollar"
  }
 ]

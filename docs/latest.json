@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T15:55:42+00:00",
+ "generated": "2026-11-08T16:31:53+00:00",
  "days": {
   "2026-11-02": {
    "topic": "quote",
@@ -458,6 +458,110 @@
     {
      "title": "Johannes Kepler – Wikipedia (deutsch)",
      "url": "https://de.wikipedia.org/wiki/Johannes_Kepler"
+    }
+   ]
+  },
+  "2026-11-10": {
+   "topic": "paleo",
+   "tag": "Dino-Dienstag",
+   "illu": "armor",
+   "accent": "#c98a4b",
+   "title": "Borealopelta: der Panzerdino, der wie eine Statue aussieht",
+   "body": [
+    "Im März 2011 stieß ein Baggerfahrer in einer Ölsandmine im Norden Albertas auf etwas Hartes, das nicht nach Gestein aussah. Es war die Vorderhälfte eines gepanzerten Dinosauriers, so vollständig erhalten, dass Fachleute später von einer Mumie sprachen. Borealopelta markmitchelli, so sein wissenschaftlicher Name, hat seitdem Fragen beantwortet, die Knochen allein nie beantworten könnten: Welche Farbe hatte ein Dinosaurier, und was hat er zuletzt gegessen?",
+    "## Ein Fund aus dem Meeresboden",
+    "Entdeckt wurde das Tier von Shawn Funk, der in der Millennium Mine des Unternehmens Suncor bei Fort McMurray arbeitete. Das Fossil stammt aus der frühen Kreidezeit und ist rund 110 Millionen Jahre alt. Bemerkenswert ist, wo es lag: in Meeresablagerungen. Borealopelta war ein Landtier, ein pflanzenfressender Nodosaurier aus der Verwandtschaft der Ankylosaurier. Die Forschenden vermuten, dass der Kadaver von einem Fluss ins Meer gespült wurde, durch Fäulnisgase eine Zeit lang trieb und schließlich auf den Meeresgrund sank. Dort landete er auf dem Rücken und wurde rasch von Sediment bedeckt. Diese schnelle Einbettung ist der Grund für den außergewöhnlichen Erhaltungszustand. Erhalten ist der Körper von der Schnauze bis etwa zur Hüfte, dreidimensional und mit dem Panzer in seiner ursprünglichen Anordnung.",
+    "## Tausende Stunden Feinarbeit",
+    "Das Fossil kam ins Royal Tyrrell Museum of Palaeontology in Drumheller. Dort legte der Präparator Mark Mitchell es über mehrere Jahre frei; die Arbeit dauerte insgesamt mehr als 7.000 Stunden. Zu Ehren dieser Geduld trägt die Art seinen Namen. Der Gattungsname Borealopelta bedeutet sinngemäß „nördlicher Schild“. Das Tier war etwa fünfeinhalb Meter lang und wog nach Schätzung der Erstbeschreibung rund 1,3 Tonnen. Auffällig sind die großen Stacheln an den Schultern. Über den Knochenplatten der Haut, den sogenannten Osteodermen, blieben sogar Reste der Hornscheiden erhalten, die die Platten zu Lebzeiten überzogen. Der Panzer wirkt dadurch nicht wie ein Skelett, sondern wie die Oberfläche eines Tiers.",
+    "## Rotbraun und von unten heller",
+    "2017 beschrieb ein Team um Caleb Brown vom Royal Tyrrell Museum das Tier in der Fachzeitschrift Current Biology. Mit chemischen Analysen fanden die Forschenden Spuren organischer Verbindungen, die sie als Überreste des rotbraunen Pigments Phäomelanin deuteten. Spannend war vor allem die Verteilung: Der Rücken war offenbar dunkler als die Unterseite. Diese Gegenschattierung kennen wir von vielen heutigen Tieren, etwa von Rehen. Sie gleicht den Schatten aus, den das Licht von oben wirft, und lässt den Körper flacher und weniger auffällig erscheinen. Für die Paläontologie ist das ein Hinweis mit Folgen. Ein schwer gepanzertes Tier von über einer Tonne brauchte offenbar trotzdem Tarnung. Das spricht dafür, dass große Raubdinosaurier in seinem Lebensraum eine ernsthafte Gefahr darstellten. Bei heutigen großen Pflanzenfressern wie Elefanten oder Nashörnern, die kaum Feinde haben, ist Gegenschattierung dagegen kaum ausgeprägt.",
+    "## Die letzte Mahlzeit",
+    "Im Bauchraum des Tiers entdeckte das Team eine Masse aus Pflanzenresten, den erhaltenen Mageninhalt. 2020 veröffentlichten Caleb Brown und Kolleginnen und Kollegen die Analyse in der Zeitschrift Royal Society Open Science. Den größten Teil machten Blätter von Farnen aus; Nadelgewächse und Palmfarne, die in der Landschaft ebenfalls wuchsen, spielten nur eine geringe Rolle. Borealopelta war demnach ein wählerischer Esser, der bestimmte Farne bevorzugte. Außerdem fand sich Holzkohle im Mageninhalt. Die Forschenden deuten das so, dass das Tier gern in Flächen fraß, die zuvor gebrannt hatten, denn nach Feuern sprießen dort junge Farne. Ähnliches Verhalten zeigen heute manche großen Pflanzenfresser. Aus dem Reifezustand der Sporenkapseln an den Farnblättern schlossen die Forschenden sogar auf die Jahreszeit: Das Tier starb vermutlich im späten Frühling oder Sommer.",
+    "## Warum dieses Fossil so wichtig ist",
+    "Die meisten Dinosaurier kennen wir aus verstreuten Knochen. Borealopelta zeigt, was unter günstigen Umständen noch alles erhalten bleiben kann: die Form des Körpers, Hornstrukturen, Spuren von Farbe und eine konkrete Mahlzeit an einem bestimmten Zeitpunkt im Jahr. Aus einem einzelnen Tier ergeben sich so Einblicke in ein ganzes Ökosystem, vom Druck durch Raubtiere bis zur Rolle von Waldbränden in der Landschaft der Kreidezeit. Heute ist das Fossil im Royal Tyrrell Museum ausgestellt. Wer davorsteht, sieht kein klassisches Skelett, sondern ein Tier, das aussieht, als sei es nur eingeschlafen."
+   ],
+   "source": "Brown et al. 2017, Current Biology; Brown et al. 2020, Royal Society Open Science; Royal Tyrrell Museum of Palaeontology",
+   "sources": [
+    {
+     "title": "Brown, C. M. et al. (2017): An Exceptionally Preserved Three-Dimensional Armored Dinosaur Reveals Insights into Coloration and Cretaceous Predator-Prey Dynamics. Current Biology 27",
+     "url": ""
+    },
+    {
+     "title": "Brown, C. M. et al. (2020): Dietary palaeoecology of an Early Cretaceous armoured dinosaur (Ornithischia; Nodosauridae) based on floral analysis of stomach contents. Royal Society Open Science 7",
+     "url": ""
+    },
+    {
+     "title": "Royal Tyrrell Museum of Palaeontology",
+     "url": "https://tyrrellmuseum.com"
+    }
+   ]
+  },
+  "2026-11-11": {
+   "topic": "fact",
+   "tag": "Faktenkette",
+   "illu": "banana",
+   "accent": "#f2b33d",
+   "headline": "Von der Banane zum Dollar",
+   "text": "Eine gewöhnliche Banane führt über unsichtbare Strahlen, eine Pariser Schreibtischschublade und ein böhmisches Bergwerk zu einer Weltwährung.",
+   "source": "Encyclopaedia Britannica; Nobelstiftung (nobelprize.org); BIPM, SI-Broschüre (2019); Kate Moore: The Radium Girls (2017); Coinage Act of 1792",
+   "chain": [
+    {
+     "title": "Die strahlende Banane",
+     "text": "Bananen enthalten viel Kalium, ebenso wie Kartoffeln, Bohnen oder Nüsse. Ein kleiner Teil allen natürlichen Kaliums, rund 0,012 Prozent, ist das radioaktive Isotop Kalium-40. Damit ist jede Banane ein klein wenig radioaktiv. Gefährlich ist das nicht: Der Körper hält seinen Kaliumgehalt weitgehend konstant und scheidet Überschüsse wieder aus. Fachleute benutzen die „Bananen-Äquivalentdosis“ dennoch gern als augenzwinkernde Vergleichsgröße, um sehr kleine Strahlendosen anschaulich zu machen, etwa bei Flugreisen oder medizinischen Untersuchungen."
+    },
+    {
+     "title": "Ein Mensch, der zerfällt",
+     "text": "Kalium ist lebenswichtig, unter anderem für die Arbeit von Nerven und Muskeln. Deshalb enthält auch der menschliche Körper Kalium-40. Im Körper eines Erwachsenen zerfallen dadurch jede Sekunde mehrere tausend Atomkerne, ganz natürlich und unbemerkt. Gemessen wird eine solche Aktivität in Becquerel: Ein Becquerel entspricht einem radioaktiven Zerfall pro Sekunde. Die Einheit wurde 1975 in das Internationale Einheitensystem aufgenommen. Ihr Name erinnert an einen französischen Physiker, der die Radioaktivität eher zufällig entdeckte."
+    },
+    {
+     "title": "Wolken über Paris",
+     "text": "Kurz zuvor hatte Wilhelm Conrad Röntgen die nach ihm benannten Strahlen entdeckt. Henri Becquerel, Sohn und Enkel von Physikern, untersuchte daraufhin 1896, ob Uransalze nach Sonnenbestrahlung ähnlich durchdringende Strahlen aussenden. An trüben Tagen fehlte das Sonnenlicht, und er legte Salze und lichtdicht verpackte Fotoplatten in eine Schublade. Als er die Platten trotzdem entwickelte, zeigten sie deutliche Schwärzungen. Die Strahlung kam offenbar aus dem Uran selbst, ganz ohne Sonne. Diese rätselhaften Strahlen wurden zum Forschungsthema einer jungen Doktorandin."
+    },
+    {
+     "title": "Ein neues Wort",
+     "text": "Maria Skłodowska stammte aus Warschau und studierte in Paris, wo sie als Marie Curie bekannt wurde. Für ihre Doktorarbeit untersuchte sie die Becquerel-Strahlen genauer. Sie stellte fest, dass ihre Stärke von der Menge des Urans abhing, nicht von seiner chemischen Verbindung, und folgerte, dass die Strahlung aus den Atomen selbst stammt. Dafür prägte sie den Begriff „Radioaktivität“. Gemeinsam mit ihrem Mann Pierre Curie gab sie 1898 die Entdeckung zweier neuer Elemente bekannt."
+    },
+    {
+     "title": "Ein Land im Periodensystem",
+     "text": "Das erste der beiden neuen Elemente, im Juli 1898 bekannt gegeben, nannten die Curies Polonium, nach Marie Curies Heimat Polen. Die Wahl war auch ein politisches Zeichen: Polen existierte damals nicht als eigener Staat, sein Gebiet war zwischen Russland, Preußen und Österreich aufgeteilt. Das zweite Element folgte im Dezember desselben Jahres und erhielt den Namen Radium, abgeleitet vom lateinischen Wort „radius“ für Strahl. Radium sollte bald weltweit bekannt werden."
+    },
+    {
+     "title": "Ein Gramm als Maßstab",
+     "text": "1903 erhielten die Curies zusammen mit Henri Becquerel den Nobelpreis für Physik; Marie Curie war damit die erste Frau mit einem Nobelpreis. Radium wurde so wichtig, dass sich 1910 ein Radiologiekongress in Brüssel auf eine Einheit einigte, die sich an einem Gramm Radium orientierte: das Curie. Später wurde es auf 3,7 mal 10 hoch 10 Becquerel festgelegt. 1911 folgte für Marie Curie der Nobelpreis für Chemie. Sie ist bis heute der einzige Mensch mit Nobelpreisen in zwei verschiedenen Naturwissenschaften."
+    },
+    {
+     "title": "Leuchtende Zifferblätter",
+     "text": "Mit Zinksulfid gemischt ergab Radium eine Farbe, die im Dunkeln leuchtete. In den 1910er- und 1920er-Jahren wurde sie für Uhrenzifferblätter und Instrumentenanzeigen verwendet. In einer Fabrik in New Jersey formten Arbeiterinnen ihre Pinsel mit den Lippen zu feinen Spitzen und nahmen so Radium auf. Viele erkrankten schwer. Fünf Frauen verklagten die United States Radium Corporation; der Fall endete 1928 mit einem Vergleich. Die Arbeiterinnen wurden als „Radium Girls“ bekannt, und ihr Fall trug dazu bei, den Arbeitsschutz zu verbessern."
+    },
+    {
+     "title": "Tonnen für einen Bruchteil",
+     "text": "Ihr Radium gewannen die Curies aus Rückständen von Pechblende, einem uranhaltigen Erz. Es stammte aus den Bergwerken von St. Joachimsthal in Böhmen, dem heutigen Jáchymov in Tschechien. Dort wurde Uran damals vor allem für Farben in Glas und Keramik gewonnen, die Reste galten als Abfall. Um winzige Mengen Radium zu isolieren, mussten Tonnen an Material in mühsamer Handarbeit verarbeitet werden. Berühmt war Joachimsthal allerdings schon Jahrhunderte vorher, und zwar wegen eines ganz anderen Metalls: Silber."
+    },
+    {
+     "title": "Vom Taler zum Dollar",
+     "text": "Im frühen 16. Jahrhundert ließen die Grafen Schlick, denen das Bergbaugebiet gehörte, Silber aus Joachimsthal zu großen Münzen prägen, den Joachimsthalern, kurz Talern. Der Name verbreitete sich mit den Münzen und ihren Nachahmungen durch Europa und wurde abgewandelt, etwa zum niederländischen „daalder“ und zum englischen „dollar“. 1792 legten die Vereinigten Staaten den Dollar gesetzlich als Einheit ihrer Währung fest. So steckt im Wort Dollar bis heute ein Tal im Erzgebirge."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nobelstiftung: Marie Curie – Facts",
+     "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/"
+    },
+    {
+     "title": "Nobelstiftung: Henri Becquerel – Biographical",
+     "url": "https://www.nobelprize.org/prizes/physics/1903/becquerel/biographical/"
+    },
+    {
+     "title": "BIPM: Die SI-Broschüre (9. Auflage, 2019)",
+     "url": ""
+    },
+    {
+     "title": "Encyclopaedia Britannica: Dollar; Thaler; Jáchymov; Polonium; Radium; Henri Becquerel; Curie (unit)",
+     "url": ""
+    },
+    {
+     "title": "Kate Moore: The Radium Girls (2017)",
+     "url": ""
     }
    ]
   }

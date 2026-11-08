@@ -1,53 +1,17 @@
 {
  "week": "2026-11-09",
- "generated": "2026-11-08T15:55:42+00:00",
+ "generated": "2026-11-08T16:31:53+00:00",
  "made_now": [
-  "2026-11-09",
   "2026-11-10",
-  "2026-11-11",
-  "2026-11-12",
-  "2026-11-13",
-  "2026-11-14",
-  "2026-11-15"
+  "2026-11-11"
  ],
- "failed": {
-  "2026-11-10": {
-   "topic": "paleo",
-   "problems": [
-    {
-     "claim": "„Bemerkenswert war auch ein Fund, den ein Team um Petr Fatka 2022 in Nature vorstellte: Ein Exemplar der Art Bohemolichas incola …“ (auch in „source“ als „Fatka et al., Nature (2022)“)",
-     "issue": "Name und Jahr sind falsch. Die Studie zum Darminhalt von Bohemolichas incola erschien 2023 in Nature. Erstautor ist Petr Kraft. Oldřich Fatka ist Mitautor, nicht Teamleiter. Einen „Petr Fatka“ als Leiter gibt es nicht.",
-     "correction": "„… ein Fund, den ein Team um Petr Kraft 2023 in Nature vorstellte …“; in „source“: „Kraft et al., Nature (2023)“."
-    },
-    {
-     "claim": "Quellenangabe: „Fatka, O. et al.: Fossil trilobite with gut contents. Nature (2022)“",
-     "issue": "Autorschaft, Titel und Jahr stimmen nicht. Die Originalarbeit lautet: Kraft, P., Vaškaninová, V., Mergl, M., Budil, P., Fatka, O. & Ahlberg, P. E.: Uniquely preserved gut contents illuminate trilobite palaeophysiology. Nature 622 (2023). DOI 10.1038/s41586-023-06567-7.",
-     "correction": "„Kraft, P. et al.: Uniquely preserved gut contents illuminate trilobite palaeophysiology. Nature (2023)“, URL: https://www.nature.com/articles/s41586-023-06567-7. Der zugehörige Eintrag in „claims“ braucht dieselbe Quelle."
-    },
-    {
-     "claim": "„Ein Team um Abderrazak El Albani berichtete 2023 in der Zeitschrift Science …“ (auch in „source“, „sources“ und „claims“ als „El Albani et al., Science (2023)“)",
-     "issue": "Das Jahr ist falsch. „Rapid volcanic ash entombment reveals the 3D anatomy of Cambrian trilobites“ erschien im Juni 2024 in Science. Die Presseberichte von Science, phys.org und CNN stammen ebenfalls von Juni/Juli 2024.",
-     "correction": "„… berichtete 2024 in der Zeitschrift Science …“; in allen Quellenangaben: „El Albani et al., Science (2024)“."
-    }
-   ]
-  },
-  "2026-11-11": {
-   "topic": "fact",
-   "problems": [
-    {
-     "claim": "„Joseph Paxton kam 1826 nach Chatsworth und wurde dort Obergärtner; er war gerade 23 Jahre alt.“ (In den claims: „Paxton (geb. 1803) wurde 1826 mit 23 Jahren Obergärtner in Chatsworth.“)",
-     "issue": "Das Alter stimmt nicht. Paxton wurde am 3. August 1803 geboren (Science Museum Group, Wikipedia). Laut seinem eigenen, oft zitierten Tagebucheintrag kam er am 9. Mai 1826 in Chatsworth an. Damit war er 22 und wurde erst im August 23. Die Angabe „23“ steht zwar in manchen populären Quellen, passt aber nicht zum gesicherten Geburtsdatum.",
-     "correction": "„Joseph Paxton kam im Mai 1826 nach Chatsworth und wurde dort Obergärtner; er war erst 22 Jahre alt.“ Alternativ: „… er war Anfang zwanzig.“ In den claims entsprechend: „Paxton (geb. 3. August 1803) wurde 1826 mit 22 Jahren Obergärtner in Chatsworth.“"
-    }
-   ]
-  }
- },
+ "failed": {},
  "usage": {
-  "input": 48128,
-  "cache_read": 434872,
-  "cache_write": 130320,
-  "output": 69307,
-  "searches": 44
+  "input": 14845,
+  "cache_read": 45721,
+  "cache_write": 30105,
+  "output": 22497,
+  "searches": 11
  },
- "cost_usd": 1.6
+ "cost_usd": 0.44
 }
