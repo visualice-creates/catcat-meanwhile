@@ -640,5 +640,47 @@
   "key": "fact:von der banane zum dollar",
   "date": "2026-11-11",
   "label": "von der banane zum dollar"
+ },
+ {
+  "topic": "quote",
+  "key": "quote:friedrich schiller",
+  "date": "2026-11-16",
+  "label": "friedrich schiller"
+ },
+ {
+  "topic": "paleo",
+  "key": "paleo:die kämpfenden dinosaurier ein augenblick aus der kreidezeit",
+  "date": "2026-11-17",
+  "label": "die kämpfenden dinosaurier ein augenblick aus der kreidezeit"
+ },
+ {
+  "topic": "fact",
+  "key": "fact:vom papiermacher zum sonnenflugzeug",
+  "date": "2026-11-18",
+  "label": "vom papiermacher zum sonnenflugzeug"
+ },
+ {
+  "topic": "astro",
+  "key": "astro:wird die dunkle energie schwächer",
+  "date": "2026-11-19",
+  "label": "wird die dunkle energie schwächer"
+ },
+ {
+  "topic": "plant",
+  "key": "plant:hedera helix",
+  "date": "2026-11-20",
+  "label": "hedera helix"
+ },
+ {
+  "topic": "sa",
+  "key": "sa:tohuwabohu",
+  "date": "2026-11-21",
+  "label": "tohuwabohu"
+ },
+ {
+  "topic": "so",
+  "key": "so:steven weinberg",
+  "date": "2026-11-22",
+  "label": "steven weinberg"
  }
 ]

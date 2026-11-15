@@ -1,328 +1,6 @@
 {
- "generated": "2026-11-08T16:31:53+00:00",
+ "generated": "2026-11-15T15:46:00+00:00",
  "days": {
-  "2026-11-02": {
-   "topic": "quote",
-   "tag": "Aufklärung",
-   "illu": "steps",
-   "accent": "#c98a4b",
-   "headline": "Anders, um gut",
-   "text": "„Ich kann freilich nicht sagen, ob es besser werden wird wenn es anders wird; aber so viel kann ich sagen, es muß anders werden, wenn es gut werden soll.“",
-   "author": "Georg Christoph Lichtenberg",
-   "role": "Experimentalphysiker in Göttingen und Aphoristiker der Aufklärung (1742–1799)",
-   "when": "1793–1796 · Sudelbuch K, Nr. 293",
-   "sources": [
-    {
-     "title": "Lichtenberg-Gesellschaft: Auswahl aus den Sudelbüchern",
-     "url": "https://www.lichtenberg-gesellschaft.de/leben/l_wirk_sudel_02.html"
-    },
-    {
-     "title": "Projekt Gutenberg: Aphorismen (Sudelbücher), Heft K 1793–1796",
-     "url": "https://projekt-gutenberg.org/authors/georg-christoph-lichtenberg/books/aphorismen-sudelbuecher/chapter/11/"
-    },
-    {
-     "title": "Universität Göttingen: Georg Christoph Lichtenberg (1742 bis 1799)",
-     "url": "https://www.uni-goettingen.de/de/georg+christoph+lichtenberg+(1742+bis+1799)/74905.html"
-    },
-    {
-     "title": "Wikipedia: Sudelbücher",
-     "url": "https://de.wikipedia.org/wiki/Sudelb%C3%BCcher"
-    }
-   ]
-  },
-  "2026-11-03": {
-   "topic": "paleo",
-   "tag": "Dino-Dienstag",
-   "illu": "dickinsonia",
-   "accent": "#47b39d",
-   "title": "Dickinsonia: Das Rätsel, das Cholesterin löste",
-   "body": [
-    "Lange bevor es Dinosaurier, Fische oder auch nur Trilobiten gab, lagen auf dem Meeresboden flache, gerippte Ovale, die wie gesteppte Badematten aussehen. Jahrzehntelang stritten Fachleute darüber, was diese Wesen namens Dickinsonia eigentlich waren: Tiere, Pilze, Flechten oder etwas völlig Eigenes. Gelöst wurde das Rätsel nicht mit dem Hammer, sondern im Chemielabor, mit einem Molekül, das heute vor allem aus Blutwerten bekannt ist.",
-    "## Ein Fund in den australischen Hügeln",
-    "Im Jahr 1946 untersuchte der Geologe Reg Sprigg die Ediacara Hills in Südaustralien und stieß dort auf rätselhafte Abdrücke weicher Organismen im Sandstein. Einen davon beschrieb er 1947 als Dickinsonia, benannt nach Ben Dickinson, dem damaligen Leiter der Bergbaubehörde des Bundesstaats. Sprigg hielt die Funde zunächst für kambrisch, also für Zeugen der Zeit, in der die meisten heutigen Tiergruppen erstmals im Fossilbericht erscheinen. Erst später wurde klar, dass die Gesteine älter sind. Einen entscheidenden Anstoß gab ein Fund in England: In den 1950er-Jahren entdeckten Schülerinnen und Schüler im Charnwood Forest bei Leicester das Fossil Charnia in Gestein, das eindeutig älter als das Kambrium war. Damit war belegt, dass es komplexes Leben schon vor der sogenannten kambrischen Explosion gegeben hatte.",
-    "## Ein Zeitalter bekommt seinen Namen",
-    "Die Hügel in Südaustralien gaben schließlich einem ganzen Zeitabschnitt der Erdgeschichte, einer Periode, ihren Namen. 2004 wurde das Ediacarium offiziell als geologisches System anerkannt. Es reicht von etwa 635 bis rund 539 Millionen Jahren vor heute und schließt damit unmittelbar an das Kambrium an. Die Organismen dieser Zeit fasst man als Ediacara-Biota zusammen. Fossilien davon kennt man inzwischen von mehreren Kontinenten, etwa aus Neufundland, Namibia und dem Gebiet am Weißen Meer im Nordwesten Russlands. Dickinsonia gehört zu den bekanntesten Vertretern. Die Exemplare reichen von wenigen Millimetern bis zu etwa 1,4 Metern Länge, sie haben keinen erkennbaren Kopf, keine Beine, keinen Mund und keine harten Teile, nur eine Abfolge von Segmenten beiderseits einer Mittellinie.",
-    "## Tier, Pflanze oder etwas ganz anderes?",
-    "Gerade diese Fremdheit machte Dickinsonia zum Streitfall. Der deutsche Paläontologe Adolf Seilacher schlug in den 1980er- und 1990er-Jahren vor, viele Ediacara-Organismen als eigenständige, ausgestorbene Gruppe zu deuten, die er Vendobionta nannte: steppdeckenartige Lebewesen, die mit heutigen Tieren nichts zu tun haben. Andere sahen in Dickinsonia einen Verwandten der Ringelwürmer, der Quallen oder der winzigen Placozoen. Erik Sperling und Jakob Vinther argumentierten 2010, Dickinsonia könnte ähnlich wie Placozoen gelebt haben, indem es mit seiner Unterseite mikrobielle Matten auf dem Meeresboden verdaute. Gregory Retallack wiederum vertrat 2013 in der Zeitschrift Nature die These, manche Ediacara-Fossilien seien an Land entstanden und könnten Flechten gewesen sein. Diese Deutung stieß bei vielen Fachleuten auf deutlichen Widerspruch. Das Grundproblem blieb: Aus der Form allein ließ sich die Frage kaum entscheiden.",
-    "## Die chemische Spur",
-    "Den Durchbruch brachte ein Team um Ilya Bobrovskiy und Jochen Brocks von der Australian National University. Bobrovskiy suchte an den Steilküsten am Weißen Meer nach Dickinsonia-Fossilien, die noch einen Hauch ihrer ursprünglichen organischen Substanz enthielten. Das ist ungewöhnlich, denn meist bleibt von Ediacara-Organismen nur ein Abdruck im Sand. Die Gesteine dort wurden jedoch nie tief versenkt und stark erhitzt, sodass sich ein dünner organischer Film erhalten hat. Diesen Film lösten die Forschenden vorsichtig ab und analysierten die darin enthaltenen Fettmoleküle. Entscheidend waren Steroide – genauer die fossilen Abbauprodukte von Sterinen wie Cholesterin, die sich als sogenannte Sterane im Gestein erhalten. Verschiedene Lebensformen bilden unterschiedliche Sterine: Pilze nutzen vor allem Ergosterin, Pflanzen und viele Algen sogenannte Phytosterine, Tiere dagegen Cholesterin. Im organischen Material von Dickinsonia stammten bis zu etwa 93 Prozent der Steroide von Cholesterin ab, deutlich verschieden vom Signal der umgebenden mikrobiellen Matten. Die Ergebnisse erschienen 2018 in der Zeitschrift Science. Die Schlussfolgerung der Autoren: Dickinsonia war ein Tier, und zwar eines der frühesten, die bislang sicher nachgewiesen sind. Flechten, Pilze und Riesenprotisten schieden damit als Erklärung weitgehend aus.",
-    "## Wie ein frühes Tier wuchs",
-    "Auch die Form selbst liefert Hinweise. Eine Studie von Renee Hoekzema und Kollegen untersuchte 2017 in den Proceedings of the Royal Society B, wie sich die Segmente bei unterschiedlich großen Exemplaren verteilen. Das Muster spricht dafür, dass neue Segmente an einem Ende des Körpers hinzukamen, ein Wachstumsprinzip, das zu einem tierischen Bauplan passt. Hinzu kommen Fundstellen, an denen mehrere schwache Abdrücke von Dickinsonia hintereinander liegen, gefolgt vom eigentlichen Fossil. Viele Fachleute deuten sie als Stellen, an denen das Tier kurz verweilte, die mikrobielle Matte unter sich abweidete und dann weiterzog. Ein Lebewesen, das sich aus eigener Kraft fortbewegt, wäre ein weiteres Argument für ein Tier. Wo genau Dickinsonia im Stammbaum steht, ist allerdings weiterhin offen. Es könnte ein sehr ursprünglicher Seitenzweig sein, der keine heutigen Nachfahren hinterlassen hat.",
-    "## Warum ein flaches Oval wichtig ist",
-    "Dickinsonia zeigt, dass große, vielzellige Tiere schon rund 20 Millionen Jahre vor dem Beginn des Kambriums auf den Meeresböden lebten. Die Fossilien vom Weißen Meer werden auf etwa 558 Millionen Jahre datiert, das Kambrium beginnt vor rund 539 Millionen Jahren. Damit verschiebt sich der Blick auf die frühe Tierwelt: Die kambrische Explosion erscheint weniger als plötzlicher Anfang, sondern eher als Phase, in der Tiere Schalen, Panzer und Augen entwickelten und dadurch besser fossil überliefert wurden. Und die Geschichte zeigt, wie Paläontologie heute arbeitet. Neben Steinen und Abdrücken lesen Forschende auch Moleküle, die mehr als eine halbe Milliarde Jahre überdauert haben. Ausgerechnet Cholesterin, im Alltag eher ein Wert auf dem Laborzettel, half dabei, eines der ältesten Tiere der Erde zu erkennen."
-   ],
-   "source": "Bobrovskiy et al., Science 361 (2018); Sprigg, Trans. Roy. Soc. South Australia (1947); Sperling & Vinther, Evolution & Development (2010); Hoekzema et al., Proc. R. Soc. B (2017); Retallack, Nature (2013); Knoll et al., Lethaia (2006) zur Ratifizierung des Ediacariums; Jenkins (1996) zur Größe von Dickinsonia",
-   "sources": [
-    {
-     "title": "Bobrovskiy, I. et al. (2018): Ancient steroids establish the Ediacaran fossil Dickinsonia as one of the earliest animals. Science 361, 1246–1249",
-     "url": "https://www.science.org/doi/10.1126/science.aat7228"
-    },
-    {
-     "title": "Sperling, E. A. & Vinther, J. (2010): A placozoan affinity for Dickinsonia and the evolution of late Proterozoic metazoan feeding modes. Evolution & Development 12",
-     "url": ""
-    },
-    {
-     "title": "Hoekzema, R. S. et al. (2017): Quantitative study of developmental biology confirms Dickinsonia as a metazoan. Proceedings of the Royal Society B 284",
-     "url": ""
-    },
-    {
-     "title": "Retallack, G. J. (2013): Ediacaran life on land. Nature 493",
-     "url": ""
-    },
-    {
-     "title": "Knoll, A. H. et al. (2006): The Ediacaran Period: a new addition to the geologic time scale. Lethaia 39",
-     "url": ""
-    }
-   ]
-  },
-  "2026-11-04": {
-   "topic": "fact",
-   "tag": "Faktenkette",
-   "illu": "otter",
-   "accent": "#47b39d",
-   "headline": "Vom Seeotter zum Salzstreuer",
-   "text": "Wie ein Tier mit außergewöhnlich dichtem Fell über Tangwälder und Schießpulver mit dem Salz auf dem Frühstückstisch zusammenhängt.",
-   "source": "Marine Mammal Commission; UC Davis Wildlife Health Center; Alaska Department of Fish and Game; California Department of Fish and Wildlife; Estes & Palmisano, Science 185 (1974); NOAA Ocean Service; Royal Society of Chemistry; Encyclopedia.com (Courtois); Science in School; Eurothyroid (Coindet); Springer; SRF; Blick; Wikipedia (Bernard Courtois, Hans Eggenberger)",
-   "chain": [
-    {
-     "title": "Pelz statt Speck",
-     "text": "Anders als Robben haben Seeotter keine isolierende Speckschicht. Warm hält sie stattdessen ihr Fell, das als das dichteste im Tierreich gilt. Je nach Quelle und Körperstelle wachsen darin 250.000 bis rund eine Million Haare auf einem Quadratzoll, also auf etwa 6,5 Quadratzentimetern. Zum Vergleich: Ein ganzer menschlicher Kopf trägt etwa 100.000 Haare. Zwischen den Haaren halten die Tiere Luftbläschen fest, die das kalte Wasser von der Haut fernhalten. Dafür putzen sie ihr Fell mehrere Stunden am Tag. Ein Pelz, der so zuverlässig wärmt, war allerdings auch bei Menschen begehrt."
-    },
-    {
-     "title": "Fast ausgerottet",
-     "text": "Bevor um die Mitte des 18. Jahrhunderts die kommerzielle Jagd begann, lebten an den Küsten des Nordpazifiks schätzungsweise 150.000 bis 300.000 Seeotter. Bis 1911 waren weniger als 2.000 Tiere übrig, verteilt auf 13 kleine Restkolonien. Im selben Jahr verbot ein internationaler Vertrag zwischen den USA, Japan, Großbritannien und Russland die Jagd. Er sollte vor allem Pelzrobben schützen, half aber auch den Ottern. In Kalifornien galten sie um 1900 weithin als ausgestorben. Fachleute wussten schon ab etwa 1914 von Überlebenden bei Point Sur. Allgemein bekannt wurde eine Kolonie nahe Bixby Creek an der Big-Sur-Küste aber erst 1938."
-    },
-    {
-     "title": "Der Seeigel-Effekt",
-     "text": "Wie wichtig die Rückkehr der Otter war, zeigte eine Studie, die James Estes und John Palmisano 1974 in der Zeitschrift „Science“ veröffentlichten. Die beiden verglichen Inseln der westlichen Aleuten, an denen Seeotter lebten, mit Inseln ohne Otter. Das Ergebnis: Die Otter prägen die Lebensgemeinschaften im flachen Küstenwasser. Sie fressen Seeigel und halten deren Zahl niedrig. Fehlen die Otter, vermehren sich die Seeigel und weiden den Tang ab. Seitdem gilt der Seeotter als bekanntes Beispiel für eine Schlüsselart, deren Fehlen ein ganzes Ökosystem verändert. Was die Otter auf diese Weise indirekt schützen, sind die Tangwälder."
-    },
-    {
-     "title": "Wald unter Wasser",
-     "text": "Kelp ist kein Baum. Nach Angaben der US-Ozeanbehörde NOAA handelt es sich um große Braunalgen. Sie wachsen in kühlem, relativ flachem Wasser nahe der Küste, etwa an weiten Teilen der nordamerikanischen Westküste. Unter idealen Bedingungen wächst Kelp bis zu etwa 45 Zentimeter am Tag. Die Algen stehen so dicht wie die Bäume eines Waldes und bieten Tausenden Arten von Fischen, Wirbellosen und Meeressäugern Nahrung und Schutz. Braunalgen wachsen auch an europäischen Küsten, etwa im Norden Frankreichs. Dort interessierte man sich vor gut 200 Jahren vor allem für das, was nach dem Verbrennen übrig blieb."
-    },
-    {
-     "title": "Asche für das Schießpulver",
-     "text": "Aus der Asche von Braunalgen ließen sich wertvolle Kalium- und Natriumsalze gewinnen. Das wurde in Frankreich während der Napoleonischen Kriege wichtig. Wegen der britischen Seeblockade wurde Salpeter knapp, also Kaliumnitrat, ein Grundstoff für Schießpulver. Der Familienbetrieb des Pariser Salpeterherstellers Bernard Courtois lieferte Salpeter für die Kriege Napoleons. Courtois nutzte deshalb Tangasche als Kaliumquelle, denn die Algen kamen an den Küsten Nordfrankreichs reichlich vor. Bevor er die gewünschten Salze gewinnen konnte, musste er störende schwefelhaltige Verbindungen mit Säure entfernen. Bei diesem Arbeitsschritt geschah etwas Unerwartetes."
-    },
-    {
-     "title": "Violetter Dampf",
-     "text": "Gegen Ende des Jahres 1811 gab Courtois Schwefelsäure im Überschuss zur Tangasche. Dabei stiegen violette Dämpfe auf, die sich zu dunklen Kristallen mit metallischem Glanz niederschlugen. Courtois vermutete, dass er auf ein neues chemisches Element gestoßen war. Für eine gründliche Untersuchung fehlten ihm jedoch die Mittel. Im Juli 1812 berichtete er den Chemikern Charles-Bernard Désormes und Nicolas Clément aus Dijon von seinem Fund und bat sie, die Forschung fortzusetzen. Bald befassten sich auch zwei der bekanntesten Chemiker der Zeit mit dem rätselhaften Stoff."
-    },
-    {
-     "title": "Benannt nach einer Farbe",
-     "text": "Joseph Louis Gay-Lussac wies nach, dass es sich tatsächlich um ein neues Element handelte. Er benannte es nach dem griechischen Wort „iodes“, das violett bedeutet. Der Engländer Humphry Davy hielt sich damals in Paris auf und stand trotz des Krieges in Kontakt mit französischen Chemikern. Er hielt den Dampf zunächst für eine Chlorverbindung, kam aber bald ebenfalls zu dem Schluss, dass es sich um ein eigenständiges Element handelte. Beide erkannten Courtois als eigentlichen Entdecker an. Im Periodensystem trägt Iod, oft auch Jod geschrieben, die Ordnungszahl 53. Wenige Jahre später fand ein Arzt in Genf eine medizinische Spur des neuen Elements."
-    },
-    {
-     "title": "Die alte Schwammkur",
-     "text": "Gegen den Kropf, eine Vergrößerung der Schilddrüse, verwendete man schon in der Antike verbrannte Meeresschwämme. 1815 berichtete Andrew Fyfe vor der Royal Society of Edinburgh, dass Schwämme Iod enthalten. Der Genfer Arzt Jean-François Coindet vermutete, dass Iod der wirksame Bestandteil der Asche von Schwämmen und Algen sei, und behandelte Kropfpatienten mit Iod. Im Juli 1820 stellte er seine Ergebnisse in Genf vor. Anhand der Iodverkäufe in Genfer Apotheken schätzte er, dass 1821 bereits etwa tausend Menschen Iod eingenommen hatten. In der Schweiz blieb der Kropf jedoch weit verbreitet, denn die Böden enthalten vor allem in den Berggebieten wenig Iod."
-    },
-    {
-     "title": "Iod im Salzstreuer",
-     "text": "Schon 1838 schlug man vor, Kochsalz mit Iod zu versetzen, weil Salz zu den wenigen Lebensmitteln gehört, die alle brauchen und sich leisten können. Umgesetzt wurde die Idee in der Schweiz erst 1922: Im Kanton Appenzell Ausserrhoden erreichte der Arzt Hans Eggenberger über eine Volksinitiative, dass iodiertes Salz ausgegeben wurde. Später folgte das ganze Land. Seitdem sind schwere Erkrankungen der Schilddrüse durch Iodmangel in der Schweiz weitgehend verschwunden. So führt ein Weg vom dichten Fell der Seeotter über Seeigel, Tangwälder und Schießpulver bis zum Salzstreuer auf dem Küchentisch."
-    }
-   ],
-   "sources": [
-    {
-     "title": "Marine Mammal Commission: Southern Sea Otter",
-     "url": "https://www.mmc.gov/priority-topics/species-of-concern/southern-sea-otter/"
-    },
-    {
-     "title": "UC Davis Wildlife Health Center: Sea Otter Facts",
-     "url": "https://whc.vetmed.ucdavis.edu/programs-projects/ca-conservation/sea-otter/facts"
-    },
-    {
-     "title": "Alaska Department of Fish and Game: Sounds Wild – Sea Otters",
-     "url": "https://www.adfg.alaska.gov/index.cfm?adfg=soundswild.episode&id=sea-otters"
-    },
-    {
-     "title": "California Department of Fish and Game: California's Living Marine Resources – Sea Otter",
-     "url": "https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=34343"
-    },
-    {
-     "title": "Sea Otter Savvy: We were here – sea otters",
-     "url": "https://www.seaottersavvy.org/we-were-here-seaotters"
-    },
-    {
-     "title": "Santa Maria Times: The California sea otter",
-     "url": "https://santamariatimes.com/opinion/columnists/the-california-sea-otter-graceful-intelligent-and-a-survivor-mark-james-miller/article_29a1b6a5-ba77-48d1-91a2-d44ea8585e33.html"
-    },
-    {
-     "title": "Estes & Palmisano (1974): Sea Otters: Their Role in Structuring Nearshore Communities, Science 185, 1058–1060",
-     "url": "https://www.science.org/doi/10.1126/science.185.4156.1058"
-    },
-    {
-     "title": "Semantic Scholar: Estes & Palmisano 1974 (Abstract)",
-     "url": "https://www.semanticscholar.org/paper/Sea-otters:-their-role-in-structuring-nearshore-Estes-Palmisano/a831f4240924b776457233bb14562d428390454e"
-    },
-    {
-     "title": "NOAA Ocean Service: What is a kelp forest?",
-     "url": "https://oceanservice.noaa.gov/facts/kelp.html"
-    },
-    {
-     "title": "Royal Society of Chemistry: Iodine",
-     "url": "https://periodic-table.rsc.org/element/53/iodine"
-    },
-    {
-     "title": "Encyclopedia.com: Courtois, Bernard",
-     "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/courtois-bernard"
-    },
-    {
-     "title": "Science in School: Purple fumes – the importance of iodine",
-     "url": "https://scienceinschool.org/article/2013/iodine/"
-    },
-    {
-     "title": "Wikipedia: Bernard Courtois",
-     "url": "https://en.wikipedia.org/wiki/Bernard_Courtois"
-    },
-    {
-     "title": "Eurothyroid: Jean-François Coindet",
-     "url": "https://www.eurothyroid.com/about/met/coindet.html"
-    },
-    {
-     "title": "Springer: Iodine (Buchkapitel)",
-     "url": "https://link.springer.com/chapter/10.1007/978-1-4684-0793-8_4"
-    },
-    {
-     "title": "SRF Wissen: Schleichender Jodmangel in der Schweiz",
-     "url": "https://www.srf.ch/wissen/gesundheit/schleichender-jodmangel-in-der-schweiz"
-    },
-    {
-     "title": "Blick: Seit 100 Jahren ist Jod im Salz",
-     "url": "https://www.blick.ch/schweiz/kropf-und-kretinismus-jod-im-salz-stoppte-vor-hundert-jahren-eine-gesundheitskrise-id17939640.html"
-    },
-    {
-     "title": "Blick: Wie die Schweiz den Kampf gegen den Kropf gewann",
-     "url": "https://www.blick.ch/news/vor-101-jahren-wie-die-schweiz-den-kampf-gegen-den-kropf-gewann-id19028772.html"
-    },
-    {
-     "title": "Wikipedia: Hans Eggenberger",
-     "url": "https://de.wikipedia.org/wiki/Hans_Eggenberger"
-    }
-   ]
-  },
-  "2026-11-05": {
-   "topic": "astro",
-   "tag": "Deep Space Walk",
-   "illu": "pulsar",
-   "accent": "#a678f0",
-   "title": "Ein Funksignal im 18-Minuten-Takt",
-   "body": [
-    "Seit Jahrzehnten gelten Pulsare als die Uhrwerke des Himmels. Die schnell rotierenden Neutronensterne schicken bei jeder Umdrehung einen Radiopuls zur Erde, und das so regelmäßig, dass sie sich mit Atomuhren messen können. Typische Pulsare drehen sich in Sekundenbruchteilen oder in wenigen Sekunden. Umso mehr überraschte 2022 ein Fund aus Westaustralien: eine Radioquelle, die ebenfalls in einem festen Takt pulsiert, aber nur etwa alle 18 Minuten. Nach gängigem Verständnis dürfte ein so langsam rotierendes Objekt kaum noch Radiowellen aussenden. Die Quelle trägt den sperrigen Namen GLEAM-X J162759.5−523504.3 und wird meist zu GLEAM-X J1627 abgekürzt. Mit ihr rückte eine Gruppe rätselhafter Objekte in den Blick der Forschung, die langperiodischen Radiotransienten.",
-    "## Ein Fund in den Archivdaten",
-    "Gefunden wurde das Signal nicht bei einer gezielten Suche, sondern in Archivdaten. Das Murchison Widefield Array (MWA) ist ein Radioteleskop aus vielen kleinen, fest installierten Antennen im australischen Outback. Für die Himmelsdurchmusterung GLEAM-X kartierte es den Himmel bei niedrigen Radiofrequenzen. In diesen Daten bemerkte ein Team um die Radioastronomin Natasha Hurley-Walker eine Quelle, die mal auftauchte und dann wieder verschwand. Die Gruppe veröffentlichte ihre Analyse 2022 in der Fachzeitschrift „Nature“ unter dem Titel „A radio transient with unusually slow periodic emission“, auf Deutsch etwa: ein Radiotransient mit ungewöhnlich langsamer periodischer Emission.",
-    "Aktiv war die Quelle zwischen Januar und März 2018. In dieser Zeit schwankte ihre Helligkeit stark. In ihren hellsten Momenten gehörte sie zu den auffälligen Objekten am niederfrequenten Radiohimmel und erreichte Flussdichten von einigen zehn Jansky. Danach war sie in den Daten nicht mehr zu finden.",
-    "## Ein Takt von 1091 Sekunden",
-    "Das Bemerkenswerte war der Rhythmus. Die Pulse kamen alle 1091 Sekunden, also alle 18,18 Minuten. Jeder Puls dauerte etwa 30 bis 60 Sekunden. Die Quelle sendete demnach nur während eines kleinen Teils jedes Zyklus, den Rest der Zeit blieb sie still. Außerdem war die Strahlung zu rund 88 Prozent linear polarisiert, schwang also überwiegend in einer bestimmten Ebene.",
-    "Diese Eigenschaften verraten etwas darüber, wie die Strahlung entsteht. Die abgeschätzte Helligkeitstemperatur liegt bei rund 10¹⁶ Kelvin. Dabei handelt es sich nicht um die Temperatur eines Gases, sondern um eine Rechengröße. Sie gibt an, wie heiß ein gewöhnlicher Strahler sein müsste, um so hell zu leuchten. Kein heißes Gas schafft das. Der Wert spricht für kohärente Strahlung, bei der viele geladene Teilchen im Gleichtakt abstrahlen. Diesen Mechanismus kennt man von Pulsaren. Die Periode war jedoch hunderte Male länger als die typischer Radiopulsare.",
-    "## Woher kommt die Energie?",
-    "Ein gewöhnlicher Pulsar bezieht seine Radioleistung aus seiner Rotation. Er wird langsam abgebremst, und ein kleiner Teil der frei werdenden Bewegungsenergie wird zu Radiostrahlung. Bei GLEAM-X J1627 geht diese Rechnung nicht auf. Die Messungen ergaben, dass sich die Periode höchstens um etwa 1,2 Milliardstel Sekunde pro Sekunde ändert. Nimmt man einen Neutronenstern an, folgt daraus eine Bremsleistung von höchstens rund 10²⁸ erg pro Sekunde. Die Radioleuchtkraft lag mit etwa 4 × 10³¹ erg pro Sekunde um Größenordnungen darüber.",
-    "Die Strahlung muss also aus einer anderen Quelle gespeist werden. Das Entdeckerteam vermutete deshalb einen magnetischen Ursprung. Es deutete das Objekt vorläufig als Magnetar mit ultralanger Periode, also als Neutronenstern mit einem extrem starken Magnetfeld, dessen Energie die Radioblitze antreibt. Als Alternative kam ein ungewöhnlicher, stark magnetisierter Weißer Zwerg infrage. Die Frage blieb offen, denn keine der beiden Deutungen passte ohne Weiteres zu allen Beobachtungen.",
-    "## Der Blick im Röntgenlicht",
-    "Magnetare leuchten meist auch im Röntgenbereich. Eine Gruppe um die Astrophysikerin Nanda Rea beobachtete die Quelle deshalb am 22. und 23. Januar 2022 rund 30.000 Sekunden lang mit dem Röntgenteleskop Chandra. Gleichzeitig liefen Radiobeobachtungen mit dem MWA, mit MeerKAT in Südafrika und mit dem Australia Telescope Compact Array. Das Ergebnis erschien 2022 im „Astrophysical Journal“ und fiel im Wesentlichen negativ aus. Im Energiebereich von 0,3 bis 8 Kiloelektronenvolt war nichts zu sehen, und auch im Radiobereich zeigte sich die Quelle in dieser Zeit nicht.",
-    "Auch ein Nichtnachweis liefert Informationen, denn er setzt eine Obergrenze: Wäre die Quelle im Röntgenlicht heller, hätte Chandra sie gesehen. Zusätzlich suchte das Team in Himmelsaufnahmen im sichtbaren und infraroten Licht nach einem Gegenstück. Innerhalb von zwei Bogensekunden um die Radioposition fanden sich zwei Kandidaten. Begleitende Simulationen zur Entwicklung von Magnetfeld und Temperatur in Neutronensternen sollten klären, unter welchen Bedingungen ein solches Objekt so langsam rotieren und trotzdem Radiowellen aussenden kann.",
-    "## Ein Wettstreit der Erklärungen",
-    "Kurz nach der Entdeckung erschienen mehrere theoretische Arbeiten. Jonathan Katz schlug 2022 in „Astrophysics and Space Science“ vor, GLEAM-X J1627 könne ein Weißer-Zwerg-Pulsar sein. Er argumentierte, dass kein Begleitstern bekannt sei, mit dem das Objekt wechselwirken könnte. Es verhalte sich also wie ein klassischer Pulsar, nur mit einer weit längeren Periode. Abraham Loeb und Dan Maoz hielten in einer Kurzmitteilung desselben Jahres einen heißen Unterzwerg für die wahrscheinlichere Erklärung, also einen Stern, der sich auf dem Weg zum Weißen Zwerg befindet.",
-    "Andere Arbeiten blieben beim Neutronenstern. Sie erklärten die langsame Drehung mit Materie, die nach der Supernova auf den jungen Stern zurückgefallen ist. Eine solche Scheibe könnte ihn früh stark abgebremst haben. Eine Arbeit von 2023 prüfte, ob die 18 Minuten statt einer Drehung auch eine Taumelbewegung der Rotationsachse sein könnten. Ihr Ergebnis: Für eine solche erzwungene Präzession ist die Periode zu kurz. Eine Studie von 2024 untersucht schon im Titel, wie Magnetare mit ultralanger Periode jenseits der sogenannten Todeslinie Radiowellen aussenden können. Gemeint ist die theoretische Grenze, ab der ein rotierender Neutronenstern eigentlich keine Radiostrahlung mehr erzeugen sollte.",
-    "## Kein Einzelfall",
-    "Ob GLEAM-X J1627 ein Neutronenstern oder ein Weißer Zwerg ist, bleibt offen. Klar ist inzwischen, dass das Objekt nicht allein ist. 2023 berichtete ein Team um Hurley-Walker in „Nature“ über einen weiteren langperiodischen Radiotransienten. Der Titel der Arbeit fasst die Überraschung zusammen: „A long-period radio transient active for three decades“, eine langperiodische Radioquelle, die seit drei Jahrzehnten aktiv ist.",
-    "So wird aus einer Kuriosität ein eigenes Forschungsfeld. Die langsamen Taktgeber deuten darauf hin, dass die vertrauten Kategorien der Sternreste, also Pulsar, Magnetar und Weißer Zwerg, die Vielfalt der Natur nicht vollständig erfassen. Manche Entdeckungen gelingen, weil Teleskope immer empfindlicher werden. Diese gelang auch deshalb, weil jemand in vorhandenen Daten auf etwas geachtet hat, das regelmäßig wiederkam."
-   ],
-   "source": "Hurley-Walker, N. et al., Nature 601, 526–530 (2022), doi:10.1038/s41586-021-04272-x; Rea, N. et al., Astrophysical Journal 940, 72 (2022); Katz, J. I., Astrophysics and Space Science 367, 108 (2022), arXiv:2203.08112; Loeb, A. & Maoz, D., Research Notes of the AAS 6, 27 (2022); Hurley-Walker, N. et al., Nature 619, 487–490 (2023), doi:10.1038/s41586-023-06202-5",
-   "sources": [
-    {
-     "title": "Hurley-Walker et al.: A radio transient with unusually slow periodic emission (Nature 601, 526–530, 2022)",
-     "url": "https://www.nature.com/articles/s41586-021-04272-x"
-    },
-    {
-     "title": "Rea et al.: Constraining the Nature of the 18 min Periodic Radio Transient GLEAM-X J162759.5-523504.3 (ApJ 940, 72)",
-     "url": "https://ui.adsabs.harvard.edu/abs/2022ApJ...940...72R"
-    },
-    {
-     "title": "Rea et al. (arXiv-Fassung)",
-     "url": "https://arxiv.org/abs/2210.01903"
-    },
-    {
-     "title": "Katz: GLEAM-X J162759.5-523504.3 as a White Dwarf Pulsar (Ap&SS 367, 108; arXiv:2203.08112)",
-     "url": "https://arxiv.org/abs/2203.08112"
-    },
-    {
-     "title": "Loeb & Maoz: Research Notes of the AAS 6, 27 (2022), ADS-Eintrag",
-     "url": "https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...27L"
-    },
-    {
-     "title": "Long-period Pulsars as Possible Outcomes of Supernova Fallback Accretion",
-     "url": "https://arxiv.org/abs/2201.11704"
-    },
-    {
-     "title": "Discussions on the Nature of GLEAM-X J162759.5–523504.3 (ApJ, 2023)",
-     "url": "https://iopscience.iop.org/article/10.3847/1538-4357/aca7fa"
-    },
-    {
-     "title": "Beyond the Rotational Deathline: Radio Emission from Ultra-long Period Magnetars",
-     "url": "https://arxiv.org/abs/2406.04135"
-    },
-    {
-     "title": "Hurley-Walker et al.: A long-period radio transient active for three decades (Nature, 2023)",
-     "url": "https://www.nature.com/articles/s41586-023-06202-5"
-    }
-   ]
-  },
-  "2026-11-06": {
-   "topic": "plant",
-   "illu": "roots",
-   "accent": "#c98a4b",
-   "name": "Ingwer",
-   "latin": "Zingiber officinale",
-   "effect": "Getrockneter Ingwerwurzelstock wird zur Vorbeugung von Übelkeit bei Reisekrankheit angewendet und traditionell bei leichten krampfartigen Magen-Darm-Beschwerden eingesetzt.",
-   "text": "Verwendet wird der Wurzelstock, botanisch das Rhizom, einer tropischen Pflanze aus der Familie der Ingwergewächse. Für die Schärfe sorgen vor allem Gingerole; beim Trocknen und Erhitzen entstehen daraus Shogaole. Die Europäische Arzneimittel-Agentur bewertet getrockneten Ingwer als pflanzliches Arzneimittel zur Vorbeugung von Reiseübelkeit. Wer gerinnungshemmende Medikamente einnimmt, schwanger ist oder stillt, sollte eine arzneiliche Anwendung vorher ärztlich abklären.",
-   "sources": [
-    {
-     "title": "EMA: Zingiberis rhizoma – Herbal medicinal product (Monografie und Bewertungsbericht)",
-     "url": "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
-    },
-    {
-     "title": "NCCIH: Ginger",
-     "url": "https://www.nccih.nih.gov/health/ginger"
-    },
-    {
-     "title": "Plants of the World Online (Royal Botanic Gardens, Kew): Zingiber officinale Roscoe",
-     "url": ""
-    },
-    {
-     "title": "Semwal et al.: Gingerols and shogaols: Important nutraceutical principles from ginger. Phytochemistry 117 (2015)",
-     "url": ""
-    }
-   ]
-  },
-  "2026-11-07": {
-   "topic": "sa",
-   "word": "Aposiopese",
-   "kind": "Substantiv, feminin (die Aposiopese, Genitiv: der Aposiopese, Plural: die Aposiopesen); Fachwort aus Rhetorik und Stilkunde",
-   "meaning": "Eine Aposiopese ist der bewusste Abbruch einer Rede oder eines begonnenen Gedankens vor der entscheidenden Aussage.",
-   "origin": "Das Wort ist griechisch-lateinischer Herkunft und bedeutet „das Verstummen“.",
-   "sources": [
-    {
-     "title": "Duden: Aposiopese – Rechtschreibung, Bedeutung, Definition, Herkunft",
-     "url": "https://www.duden.de/rechtschreibung/Aposiopese"
-    }
-   ]
-  },
-  "2026-11-08": {
-   "topic": "so",
-   "text": "Betrachte den Lauf der Gestirne, als ob du mit ihnen umliefest, und denke beständig an die Verwandlungen der Elemente ineinander; denn solche Vorstellungen waschen den Schmutz des Lebens auf der Erde ab.",
-   "author": "Marc Aurel (Marcus Aurelius), römischer Kaiser und stoischer Philosoph",
-   "when": "um 170–180 n. Chr. · Selbstbetrachtungen (Ta eis heauton), Buch VII, 47 – freie Übersetzung aus dem Griechischen",
-   "sources": [
-    {
-     "title": "Marcus Aurelius: Selbstbetrachtungen (Ta eis heauton), Buch VII, Abschnitt 47 (griechischer Originaltext)",
-     "url": ""
-    },
-    {
-     "title": "Marcus Aurelius: Meditations, übersetzt von C. R. Haines, Loeb Classical Library 58, 1916",
-     "url": ""
-    }
-   ]
-  },
   "2026-11-09": {
    "topic": "quote",
    "tag": "Politik",
@@ -336,6 +14,110 @@
    "sources": [
     {
      "title": "Richard von Weizsäcker: Rede in der Gedenkstunde im Plenarsaal des Deutschen Bundestages zum 40. Jahrestag des Endes des Zweiten Weltkrieges in Europa, 8. Mai 1985 (Bundespräsidialamt)",
+     "url": ""
+    }
+   ]
+  },
+  "2026-11-10": {
+   "topic": "paleo",
+   "tag": "Dino-Dienstag",
+   "illu": "armor",
+   "accent": "#c98a4b",
+   "title": "Borealopelta: der Panzerdino, der wie eine Statue aussieht",
+   "body": [
+    "Im März 2011 stieß ein Baggerfahrer in einer Ölsandmine im Norden Albertas auf etwas Hartes, das nicht nach Gestein aussah. Es war die Vorderhälfte eines gepanzerten Dinosauriers, so vollständig erhalten, dass Fachleute später von einer Mumie sprachen. Borealopelta markmitchelli, so sein wissenschaftlicher Name, hat seitdem Fragen beantwortet, die Knochen allein nie beantworten könnten: Welche Farbe hatte ein Dinosaurier, und was hat er zuletzt gegessen?",
+    "## Ein Fund aus dem Meeresboden",
+    "Entdeckt wurde das Tier von Shawn Funk, der in der Millennium Mine des Unternehmens Suncor bei Fort McMurray arbeitete. Das Fossil stammt aus der frühen Kreidezeit und ist rund 110 Millionen Jahre alt. Bemerkenswert ist, wo es lag: in Meeresablagerungen. Borealopelta war ein Landtier, ein pflanzenfressender Nodosaurier aus der Verwandtschaft der Ankylosaurier. Die Forschenden vermuten, dass der Kadaver von einem Fluss ins Meer gespült wurde, durch Fäulnisgase eine Zeit lang trieb und schließlich auf den Meeresgrund sank. Dort landete er auf dem Rücken und wurde rasch von Sediment bedeckt. Diese schnelle Einbettung ist der Grund für den außergewöhnlichen Erhaltungszustand. Erhalten ist der Körper von der Schnauze bis etwa zur Hüfte, dreidimensional und mit dem Panzer in seiner ursprünglichen Anordnung.",
+    "## Tausende Stunden Feinarbeit",
+    "Das Fossil kam ins Royal Tyrrell Museum of Palaeontology in Drumheller. Dort legte der Präparator Mark Mitchell es über mehrere Jahre frei; die Arbeit dauerte insgesamt mehr als 7.000 Stunden. Zu Ehren dieser Geduld trägt die Art seinen Namen. Der Gattungsname Borealopelta bedeutet sinngemäß „nördlicher Schild“. Das Tier war etwa fünfeinhalb Meter lang und wog nach Schätzung der Erstbeschreibung rund 1,3 Tonnen. Auffällig sind die großen Stacheln an den Schultern. Über den Knochenplatten der Haut, den sogenannten Osteodermen, blieben sogar Reste der Hornscheiden erhalten, die die Platten zu Lebzeiten überzogen. Der Panzer wirkt dadurch nicht wie ein Skelett, sondern wie die Oberfläche eines Tiers.",
+    "## Rotbraun und von unten heller",
+    "2017 beschrieb ein Team um Caleb Brown vom Royal Tyrrell Museum das Tier in der Fachzeitschrift Current Biology. Mit chemischen Analysen fanden die Forschenden Spuren organischer Verbindungen, die sie als Überreste des rotbraunen Pigments Phäomelanin deuteten. Spannend war vor allem die Verteilung: Der Rücken war offenbar dunkler als die Unterseite. Diese Gegenschattierung kennen wir von vielen heutigen Tieren, etwa von Rehen. Sie gleicht den Schatten aus, den das Licht von oben wirft, und lässt den Körper flacher und weniger auffällig erscheinen. Für die Paläontologie ist das ein Hinweis mit Folgen. Ein schwer gepanzertes Tier von über einer Tonne brauchte offenbar trotzdem Tarnung. Das spricht dafür, dass große Raubdinosaurier in seinem Lebensraum eine ernsthafte Gefahr darstellten. Bei heutigen großen Pflanzenfressern wie Elefanten oder Nashörnern, die kaum Feinde haben, ist Gegenschattierung dagegen kaum ausgeprägt.",
+    "## Die letzte Mahlzeit",
+    "Im Bauchraum des Tiers entdeckte das Team eine Masse aus Pflanzenresten, den erhaltenen Mageninhalt. 2020 veröffentlichten Caleb Brown und Kolleginnen und Kollegen die Analyse in der Zeitschrift Royal Society Open Science. Den größten Teil machten Blätter von Farnen aus; Nadelgewächse und Palmfarne, die in der Landschaft ebenfalls wuchsen, spielten nur eine geringe Rolle. Borealopelta war demnach ein wählerischer Esser, der bestimmte Farne bevorzugte. Außerdem fand sich Holzkohle im Mageninhalt. Die Forschenden deuten das so, dass das Tier gern in Flächen fraß, die zuvor gebrannt hatten, denn nach Feuern sprießen dort junge Farne. Ähnliches Verhalten zeigen heute manche großen Pflanzenfresser. Aus dem Reifezustand der Sporenkapseln an den Farnblättern schlossen die Forschenden sogar auf die Jahreszeit: Das Tier starb vermutlich im späten Frühling oder Sommer.",
+    "## Warum dieses Fossil so wichtig ist",
+    "Die meisten Dinosaurier kennen wir aus verstreuten Knochen. Borealopelta zeigt, was unter günstigen Umständen noch alles erhalten bleiben kann: die Form des Körpers, Hornstrukturen, Spuren von Farbe und eine konkrete Mahlzeit an einem bestimmten Zeitpunkt im Jahr. Aus einem einzelnen Tier ergeben sich so Einblicke in ein ganzes Ökosystem, vom Druck durch Raubtiere bis zur Rolle von Waldbränden in der Landschaft der Kreidezeit. Heute ist das Fossil im Royal Tyrrell Museum ausgestellt. Wer davorsteht, sieht kein klassisches Skelett, sondern ein Tier, das aussieht, als sei es nur eingeschlafen."
+   ],
+   "source": "Brown et al. 2017, Current Biology; Brown et al. 2020, Royal Society Open Science; Royal Tyrrell Museum of Palaeontology",
+   "sources": [
+    {
+     "title": "Brown, C. M. et al. (2017): An Exceptionally Preserved Three-Dimensional Armored Dinosaur Reveals Insights into Coloration and Cretaceous Predator-Prey Dynamics. Current Biology 27",
+     "url": ""
+    },
+    {
+     "title": "Brown, C. M. et al. (2020): Dietary palaeoecology of an Early Cretaceous armoured dinosaur (Ornithischia; Nodosauridae) based on floral analysis of stomach contents. Royal Society Open Science 7",
+     "url": ""
+    },
+    {
+     "title": "Royal Tyrrell Museum of Palaeontology",
+     "url": "https://tyrrellmuseum.com"
+    }
+   ]
+  },
+  "2026-11-11": {
+   "topic": "fact",
+   "tag": "Faktenkette",
+   "illu": "banana",
+   "accent": "#f2b33d",
+   "headline": "Von der Banane zum Dollar",
+   "text": "Eine gewöhnliche Banane führt über unsichtbare Strahlen, eine Pariser Schreibtischschublade und ein böhmisches Bergwerk zu einer Weltwährung.",
+   "source": "Encyclopaedia Britannica; Nobelstiftung (nobelprize.org); BIPM, SI-Broschüre (2019); Kate Moore: The Radium Girls (2017); Coinage Act of 1792",
+   "chain": [
+    {
+     "title": "Die strahlende Banane",
+     "text": "Bananen enthalten viel Kalium, ebenso wie Kartoffeln, Bohnen oder Nüsse. Ein kleiner Teil allen natürlichen Kaliums, rund 0,012 Prozent, ist das radioaktive Isotop Kalium-40. Damit ist jede Banane ein klein wenig radioaktiv. Gefährlich ist das nicht: Der Körper hält seinen Kaliumgehalt weitgehend konstant und scheidet Überschüsse wieder aus. Fachleute benutzen die „Bananen-Äquivalentdosis“ dennoch gern als augenzwinkernde Vergleichsgröße, um sehr kleine Strahlendosen anschaulich zu machen, etwa bei Flugreisen oder medizinischen Untersuchungen."
+    },
+    {
+     "title": "Ein Mensch, der zerfällt",
+     "text": "Kalium ist lebenswichtig, unter anderem für die Arbeit von Nerven und Muskeln. Deshalb enthält auch der menschliche Körper Kalium-40. Im Körper eines Erwachsenen zerfallen dadurch jede Sekunde mehrere tausend Atomkerne, ganz natürlich und unbemerkt. Gemessen wird eine solche Aktivität in Becquerel: Ein Becquerel entspricht einem radioaktiven Zerfall pro Sekunde. Die Einheit wurde 1975 in das Internationale Einheitensystem aufgenommen. Ihr Name erinnert an einen französischen Physiker, der die Radioaktivität eher zufällig entdeckte."
+    },
+    {
+     "title": "Wolken über Paris",
+     "text": "Kurz zuvor hatte Wilhelm Conrad Röntgen die nach ihm benannten Strahlen entdeckt. Henri Becquerel, Sohn und Enkel von Physikern, untersuchte daraufhin 1896, ob Uransalze nach Sonnenbestrahlung ähnlich durchdringende Strahlen aussenden. An trüben Tagen fehlte das Sonnenlicht, und er legte Salze und lichtdicht verpackte Fotoplatten in eine Schublade. Als er die Platten trotzdem entwickelte, zeigten sie deutliche Schwärzungen. Die Strahlung kam offenbar aus dem Uran selbst, ganz ohne Sonne. Diese rätselhaften Strahlen wurden zum Forschungsthema einer jungen Doktorandin."
+    },
+    {
+     "title": "Ein neues Wort",
+     "text": "Maria Skłodowska stammte aus Warschau und studierte in Paris, wo sie als Marie Curie bekannt wurde. Für ihre Doktorarbeit untersuchte sie die Becquerel-Strahlen genauer. Sie stellte fest, dass ihre Stärke von der Menge des Urans abhing, nicht von seiner chemischen Verbindung, und folgerte, dass die Strahlung aus den Atomen selbst stammt. Dafür prägte sie den Begriff „Radioaktivität“. Gemeinsam mit ihrem Mann Pierre Curie gab sie 1898 die Entdeckung zweier neuer Elemente bekannt."
+    },
+    {
+     "title": "Ein Land im Periodensystem",
+     "text": "Das erste der beiden neuen Elemente, im Juli 1898 bekannt gegeben, nannten die Curies Polonium, nach Marie Curies Heimat Polen. Die Wahl war auch ein politisches Zeichen: Polen existierte damals nicht als eigener Staat, sein Gebiet war zwischen Russland, Preußen und Österreich aufgeteilt. Das zweite Element folgte im Dezember desselben Jahres und erhielt den Namen Radium, abgeleitet vom lateinischen Wort „radius“ für Strahl. Radium sollte bald weltweit bekannt werden."
+    },
+    {
+     "title": "Ein Gramm als Maßstab",
+     "text": "1903 erhielten die Curies zusammen mit Henri Becquerel den Nobelpreis für Physik; Marie Curie war damit die erste Frau mit einem Nobelpreis. Radium wurde so wichtig, dass sich 1910 ein Radiologiekongress in Brüssel auf eine Einheit einigte, die sich an einem Gramm Radium orientierte: das Curie. Später wurde es auf 3,7 mal 10 hoch 10 Becquerel festgelegt. 1911 folgte für Marie Curie der Nobelpreis für Chemie. Sie ist bis heute der einzige Mensch mit Nobelpreisen in zwei verschiedenen Naturwissenschaften."
+    },
+    {
+     "title": "Leuchtende Zifferblätter",
+     "text": "Mit Zinksulfid gemischt ergab Radium eine Farbe, die im Dunkeln leuchtete. In den 1910er- und 1920er-Jahren wurde sie für Uhrenzifferblätter und Instrumentenanzeigen verwendet. In einer Fabrik in New Jersey formten Arbeiterinnen ihre Pinsel mit den Lippen zu feinen Spitzen und nahmen so Radium auf. Viele erkrankten schwer. Fünf Frauen verklagten die United States Radium Corporation; der Fall endete 1928 mit einem Vergleich. Die Arbeiterinnen wurden als „Radium Girls“ bekannt, und ihr Fall trug dazu bei, den Arbeitsschutz zu verbessern."
+    },
+    {
+     "title": "Tonnen für einen Bruchteil",
+     "text": "Ihr Radium gewannen die Curies aus Rückständen von Pechblende, einem uranhaltigen Erz. Es stammte aus den Bergwerken von St. Joachimsthal in Böhmen, dem heutigen Jáchymov in Tschechien. Dort wurde Uran damals vor allem für Farben in Glas und Keramik gewonnen, die Reste galten als Abfall. Um winzige Mengen Radium zu isolieren, mussten Tonnen an Material in mühsamer Handarbeit verarbeitet werden. Berühmt war Joachimsthal allerdings schon Jahrhunderte vorher, und zwar wegen eines ganz anderen Metalls: Silber."
+    },
+    {
+     "title": "Vom Taler zum Dollar",
+     "text": "Im frühen 16. Jahrhundert ließen die Grafen Schlick, denen das Bergbaugebiet gehörte, Silber aus Joachimsthal zu großen Münzen prägen, den Joachimsthalern, kurz Talern. Der Name verbreitete sich mit den Münzen und ihren Nachahmungen durch Europa und wurde abgewandelt, etwa zum niederländischen „daalder“ und zum englischen „dollar“. 1792 legten die Vereinigten Staaten den Dollar gesetzlich als Einheit ihrer Währung fest. So steckt im Wort Dollar bis heute ein Tal im Erzgebirge."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nobelstiftung: Marie Curie – Facts",
+     "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/"
+    },
+    {
+     "title": "Nobelstiftung: Henri Becquerel – Biographical",
+     "url": "https://www.nobelprize.org/prizes/physics/1903/becquerel/biographical/"
+    },
+    {
+     "title": "BIPM: Die SI-Broschüre (9. Auflage, 2019)",
+     "url": ""
+    },
+    {
+     "title": "Encyclopaedia Britannica: Dollar; Thaler; Jáchymov; Polonium; Radium; Henri Becquerel; Curie (unit)",
+     "url": ""
+    },
+    {
+     "title": "Kate Moore: The Radium Girls (2017)",
      "url": ""
     }
    ]
@@ -461,107 +243,241 @@
     }
    ]
   },
-  "2026-11-10": {
-   "topic": "paleo",
-   "tag": "Dino-Dienstag",
-   "illu": "armor",
-   "accent": "#c98a4b",
-   "title": "Borealopelta: der Panzerdino, der wie eine Statue aussieht",
-   "body": [
-    "Im März 2011 stieß ein Baggerfahrer in einer Ölsandmine im Norden Albertas auf etwas Hartes, das nicht nach Gestein aussah. Es war die Vorderhälfte eines gepanzerten Dinosauriers, so vollständig erhalten, dass Fachleute später von einer Mumie sprachen. Borealopelta markmitchelli, so sein wissenschaftlicher Name, hat seitdem Fragen beantwortet, die Knochen allein nie beantworten könnten: Welche Farbe hatte ein Dinosaurier, und was hat er zuletzt gegessen?",
-    "## Ein Fund aus dem Meeresboden",
-    "Entdeckt wurde das Tier von Shawn Funk, der in der Millennium Mine des Unternehmens Suncor bei Fort McMurray arbeitete. Das Fossil stammt aus der frühen Kreidezeit und ist rund 110 Millionen Jahre alt. Bemerkenswert ist, wo es lag: in Meeresablagerungen. Borealopelta war ein Landtier, ein pflanzenfressender Nodosaurier aus der Verwandtschaft der Ankylosaurier. Die Forschenden vermuten, dass der Kadaver von einem Fluss ins Meer gespült wurde, durch Fäulnisgase eine Zeit lang trieb und schließlich auf den Meeresgrund sank. Dort landete er auf dem Rücken und wurde rasch von Sediment bedeckt. Diese schnelle Einbettung ist der Grund für den außergewöhnlichen Erhaltungszustand. Erhalten ist der Körper von der Schnauze bis etwa zur Hüfte, dreidimensional und mit dem Panzer in seiner ursprünglichen Anordnung.",
-    "## Tausende Stunden Feinarbeit",
-    "Das Fossil kam ins Royal Tyrrell Museum of Palaeontology in Drumheller. Dort legte der Präparator Mark Mitchell es über mehrere Jahre frei; die Arbeit dauerte insgesamt mehr als 7.000 Stunden. Zu Ehren dieser Geduld trägt die Art seinen Namen. Der Gattungsname Borealopelta bedeutet sinngemäß „nördlicher Schild“. Das Tier war etwa fünfeinhalb Meter lang und wog nach Schätzung der Erstbeschreibung rund 1,3 Tonnen. Auffällig sind die großen Stacheln an den Schultern. Über den Knochenplatten der Haut, den sogenannten Osteodermen, blieben sogar Reste der Hornscheiden erhalten, die die Platten zu Lebzeiten überzogen. Der Panzer wirkt dadurch nicht wie ein Skelett, sondern wie die Oberfläche eines Tiers.",
-    "## Rotbraun und von unten heller",
-    "2017 beschrieb ein Team um Caleb Brown vom Royal Tyrrell Museum das Tier in der Fachzeitschrift Current Biology. Mit chemischen Analysen fanden die Forschenden Spuren organischer Verbindungen, die sie als Überreste des rotbraunen Pigments Phäomelanin deuteten. Spannend war vor allem die Verteilung: Der Rücken war offenbar dunkler als die Unterseite. Diese Gegenschattierung kennen wir von vielen heutigen Tieren, etwa von Rehen. Sie gleicht den Schatten aus, den das Licht von oben wirft, und lässt den Körper flacher und weniger auffällig erscheinen. Für die Paläontologie ist das ein Hinweis mit Folgen. Ein schwer gepanzertes Tier von über einer Tonne brauchte offenbar trotzdem Tarnung. Das spricht dafür, dass große Raubdinosaurier in seinem Lebensraum eine ernsthafte Gefahr darstellten. Bei heutigen großen Pflanzenfressern wie Elefanten oder Nashörnern, die kaum Feinde haben, ist Gegenschattierung dagegen kaum ausgeprägt.",
-    "## Die letzte Mahlzeit",
-    "Im Bauchraum des Tiers entdeckte das Team eine Masse aus Pflanzenresten, den erhaltenen Mageninhalt. 2020 veröffentlichten Caleb Brown und Kolleginnen und Kollegen die Analyse in der Zeitschrift Royal Society Open Science. Den größten Teil machten Blätter von Farnen aus; Nadelgewächse und Palmfarne, die in der Landschaft ebenfalls wuchsen, spielten nur eine geringe Rolle. Borealopelta war demnach ein wählerischer Esser, der bestimmte Farne bevorzugte. Außerdem fand sich Holzkohle im Mageninhalt. Die Forschenden deuten das so, dass das Tier gern in Flächen fraß, die zuvor gebrannt hatten, denn nach Feuern sprießen dort junge Farne. Ähnliches Verhalten zeigen heute manche großen Pflanzenfresser. Aus dem Reifezustand der Sporenkapseln an den Farnblättern schlossen die Forschenden sogar auf die Jahreszeit: Das Tier starb vermutlich im späten Frühling oder Sommer.",
-    "## Warum dieses Fossil so wichtig ist",
-    "Die meisten Dinosaurier kennen wir aus verstreuten Knochen. Borealopelta zeigt, was unter günstigen Umständen noch alles erhalten bleiben kann: die Form des Körpers, Hornstrukturen, Spuren von Farbe und eine konkrete Mahlzeit an einem bestimmten Zeitpunkt im Jahr. Aus einem einzelnen Tier ergeben sich so Einblicke in ein ganzes Ökosystem, vom Druck durch Raubtiere bis zur Rolle von Waldbränden in der Landschaft der Kreidezeit. Heute ist das Fossil im Royal Tyrrell Museum ausgestellt. Wer davorsteht, sieht kein klassisches Skelett, sondern ein Tier, das aussieht, als sei es nur eingeschlafen."
-   ],
-   "source": "Brown et al. 2017, Current Biology; Brown et al. 2020, Royal Society Open Science; Royal Tyrrell Museum of Palaeontology",
+  "2026-11-16": {
+   "topic": "quote",
+   "tag": "Philosophie",
+   "illu": "chess",
+   "accent": "#f2b33d",
+   "headline": "Ganz Mensch im Spiel",
+   "text": "Denn, um es endlich auf einmal herauszusagen, der Mensch spielt nur, wo er in voller Bedeutung des Worts Mensch ist, und er ist nur da ganz Mensch, wo er spielt.",
+   "author": "Friedrich Schiller",
+   "role": "Dichter, Dramatiker und Philosoph der Weimarer Klassik (1759–1805)",
+   "when": "1795 · Über die ästhetische Erziehung des Menschen, 15. Brief",
    "sources": [
     {
-     "title": "Brown, C. M. et al. (2017): An Exceptionally Preserved Three-Dimensional Armored Dinosaur Reveals Insights into Coloration and Cretaceous Predator-Prey Dynamics. Current Biology 27",
+     "title": "Friedrich Schiller: Über die ästhetische Erziehung des Menschen in einer Reihe von Briefen, 15. Brief (Die Horen, 1795)",
      "url": ""
     },
     {
-     "title": "Brown, C. M. et al. (2020): Dietary palaeoecology of an Early Cretaceous armoured dinosaur (Ornithischia; Nodosauridae) based on floral analysis of stomach contents. Royal Society Open Science 7",
-     "url": ""
-    },
-    {
-     "title": "Royal Tyrrell Museum of Palaeontology",
-     "url": "https://tyrrellmuseum.com"
+     "title": "Wikipedia: Über die ästhetische Erziehung des Menschen",
+     "url": "https://de.wikipedia.org/wiki/Über_die_ästhetische_Erziehung_des_Menschen"
     }
    ]
   },
-  "2026-11-11": {
+  "2026-11-17": {
+   "topic": "paleo",
+   "tag": "Dino-Dienstag",
+   "illu": "fight",
+   "accent": "#d9443a",
+   "title": "Die kämpfenden Dinosaurier: ein Augenblick aus der Kreidezeit",
+   "body": [
+    "Die meisten Fossilien erzählen von Körpern, nur wenige von Momenten. Ein Fund aus der Wüste Gobi zeigt zwei Tiere, die mitten in einer Auseinandersetzung gestorben sind: ein Velociraptor und ein Protoceratops, ineinander verkeilt. Das Stück ist als „Fighting Dinosaurs“ bekannt und gehört zu den eindrucksvollsten Dokumenten urzeitlichen Verhaltens.",
+    "## Ein Fund im Sand der Gobi",
+    "Entdeckt wurde das Fossil 1971 von einer polnisch-mongolischen Expedition an der Fundstelle Tugrikin Shiree in der südlichen Mongolei. Die Gesteine dort gehören zur Djadokhta-Formation und stammen aus der späten Kreidezeit, also aus einer Zeit vor gut 70 Millionen Jahren. Die Paläontologin Zofia Kielan-Jaworowska, die die polnischen Expeditionen jener Jahre leitete, beschrieb den Fund 1972 gemeinsam mit dem mongolischen Paläontologen Rinchen Barsbold. Heute wird das Fossil in der Mongolei aufbewahrt und gilt dort als nationaler Schatz.",
+    "## Zwei bekannte Gegner",
+    "Beide Tierarten waren zu diesem Zeitpunkt längst bekannt. Die Central Asiatic Expeditions des American Museum of Natural History unter Roy Chapman Andrews hatten in den 1920er-Jahren an den Flaming Cliffs (Bayanzag) zahlreiche Fossilien geborgen. Protoceratops andrewsi wurde 1923 von Walter Granger und William King Gregory benannt, Velociraptor mongoliensis 1924 von Henry Fairfield Osborn. Der Gattungsname Velociraptor setzt sich aus den lateinischen Wörtern für „schnell“ und „Räuber“ zusammen. Protoceratops war ein pflanzenfressender Vertreter der Horndinosaurier, etwa so groß wie ein Schaf, mit kräftigem Schnabel und knöchernem Nackenschild. Velociraptor dagegen war ein leichter, zweibeiniger Räuber aus der Gruppe der Dromaeosauriden, deutlich kleiner als die Filmversion aus „Jurassic Park“, deren Größe eher an den nordamerikanischen Verwandten Deinonychus erinnert. An den Unterarmknochen eines Velociraptor-Exemplars fanden Alan Turner, Peter Makovicky und Mark Norell 2007 Ansatzstellen für Federkiele – das Tier trug also Federn.",
+    "Auch Protoceratops hat eine bewegte Forschungsgeschichte. Die Eier, die Andrews' Expeditionen in den 1920er-Jahren an den Flaming Cliffs fanden, wurden lange Protoceratops zugeschrieben. Ein Skelett, das daneben lag, erhielt deshalb 1924 von Osborn den Namen Oviraptor, „Eierdieb“. Erst als Mark Norell und Kollegen 1994 einen Embryo in einem solchen Ei beschrieben, zeigte sich: Es handelte sich um den Nachwuchs eines Oviraptoriden. Echte Protoceratops-Eier stellten Norell und Kollegen 2020 in der Zeitschrift Nature vor – nach ihrer Analyse hatten sie eine weiche, nicht verkalkte Schale.",
+    "## Was das Fossil zeigt",
+    "Die Haltung der beiden Skelette ist der Grund für den Ruhm des Fundes. Die große Sichelkralle am Fuß des Velociraptor liegt im Halsbereich des Protoceratops. Der Protoceratops wiederum hält einen Arm des Räubers in seinem Schnabel fest. Keiner der beiden konnte sich offenbar mehr lösen. Damit ist die Szene kein Zufallsarrangement von Knochen, sondern sehr wahrscheinlich das Ende eines echten Kampfes. Für die Paläontologie ist das selten: Ob ein Raubtier ein bestimmtes Beutetier tatsächlich angegriffen hat, lässt sich sonst meist nur indirekt erschließen, etwa über Bissspuren oder Mageninhalte. Ein Skelett zeigt Bau und Größe eines Tieres; wie es sich bewegte, jagte oder wehrte, bleibt dagegen meist Gegenstand von Vergleichen mit heutigen Tieren und biomechanischen Überlegungen.",
+    "## Begraben in einem Augenblick",
+    "Dass zwei kämpfende Tiere in dieser Stellung erhalten blieben, setzt eine sehr schnelle Einbettung voraus. Die Djadokhta-Formation besteht zu großen Teilen aus Sandsteinen, die in einer trockenen Landschaft mit Dünen abgelagert wurden. Diskutiert werden deshalb vor allem zwei Erklärungen: ein Sandsturm oder eine abrutschende, durchfeuchtete Düne, die die Tiere plötzlich verschüttete. Beide Szenarien erklären, warum die Skelette nicht von Aasfressern zerstreut wurden. Welche Variante zutrifft, ist nicht abschließend geklärt; einig ist sich die Forschung darin, dass das Ende abrupt kam.",
+    "## Was der Fund über Velociraptor verrät",
+    "Der Kampf passt zu weiteren Hinweisen auf eine Beziehung zwischen den beiden Gattungen. 2010 beschrieben David Hone und Kollegen Bissspuren an Protoceratops-Knochen aus der Inneren Mongolei, die sie einem Velociraptor zuordneten. Weil die Spuren an Stellen mit wenig Fleisch lagen, deuteten sie diese eher als Fressen an einem schon weitgehend verwerteten Kadaver – Velociraptor hat also vermutlich auch Aas genutzt. Wie die Sichelkralle eingesetzt wurde, untersuchten Denver Fowler und Kollegen 2011: Ihrer Deutung nach diente sie bei Dromaeosauriden weniger zum Aufschlitzen als zum Festhalten und Niederdrücken von Beute, ähnlich wie bei heutigen Greifvögeln. Das Fossil aus Tugrikin Shiree zeigt allerdings auch, dass ein Angriff auf ein wehrhaftes Tier riskant war. Am Ende überlebte keiner der beiden – und gerade dadurch blieb ihr letzter Moment über Jahrmillionen erhalten."
+   ],
+   "source": "Kielan-Jaworowska & Barsbold 1972, Palaeontologia Polonica 27; Turner, Makovicky & Norell 2007, Science; Norell et al. 1994, Science; Norell et al. 2020, Nature; Hone et al. 2010, Palaeogeography, Palaeoclimatology, Palaeoecology; Fowler et al. 2011, PLoS ONE",
+   "sources": [
+    {
+     "title": "Kielan-Jaworowska, Z. & Barsbold, R. (1972): Narrative of the Polish-Mongolian Palaeontological Expeditions 1967–1971. Palaeontologia Polonica 27",
+     "url": ""
+    },
+    {
+     "title": "Turner, A. H., Makovicky, P. J. & Norell, M. A. (2007): Feather quill knobs in the dinosaur Velociraptor. Science 317",
+     "url": ""
+    },
+    {
+     "title": "Norell, M. A. et al. (1994): A theropod dinosaur embryo and the affinities of the Flaming Cliffs dinosaur eggs. Science 266",
+     "url": ""
+    },
+    {
+     "title": "Norell, M. A. et al. (2020): The first dinosaur egg was soft. Nature 583",
+     "url": ""
+    },
+    {
+     "title": "Hone, D. et al. (2010): New evidence for a trophic relationship between the dinosaurs Velociraptor and Protoceratops. Palaeogeography, Palaeoclimatology, Palaeoecology 291",
+     "url": ""
+    },
+    {
+     "title": "Fowler, D. W. et al. (2011): The predatory ecology of Deinonychus and the origin of flapping in birds. PLoS ONE 6",
+     "url": ""
+    }
+   ]
+  },
+  "2026-11-18": {
    "topic": "fact",
    "tag": "Faktenkette",
-   "illu": "banana",
+   "illu": "balloon",
    "accent": "#f2b33d",
-   "headline": "Von der Banane zum Dollar",
-   "text": "Eine gewöhnliche Banane führt über unsichtbare Strahlen, eine Pariser Schreibtischschublade und ein böhmisches Bergwerk zu einer Weltwährung.",
-   "source": "Encyclopaedia Britannica; Nobelstiftung (nobelprize.org); BIPM, SI-Broschüre (2019); Kate Moore: The Radium Girls (2017); Coinage Act of 1792",
+   "headline": "Vom Papiermacher zum Sonnenflugzeug",
+   "text": "Eine Kette, die mit einer Hülle aus Stoff und Papier über einem Feuer beginnt und mit einem Flugzeug endet, das ganz ohne Treibstoff um die Welt fliegt.",
+   "source": "Gillispie: The Montgolfier Brothers and the Invention of Aviation (1983); Smithsonian National Air and Space Museum; Piccard & Jones: The Greatest Adventure (1999); Piccard & Dietz: Seven Miles Down (1961); solarimpulse.com",
    "chain": [
     {
-     "title": "Die strahlende Banane",
-     "text": "Bananen enthalten viel Kalium, ebenso wie Kartoffeln, Bohnen oder Nüsse. Ein kleiner Teil allen natürlichen Kaliums, rund 0,012 Prozent, ist das radioaktive Isotop Kalium-40. Damit ist jede Banane ein klein wenig radioaktiv. Gefährlich ist das nicht: Der Körper hält seinen Kaliumgehalt weitgehend konstant und scheidet Überschüsse wieder aus. Fachleute benutzen die „Bananen-Äquivalentdosis“ dennoch gern als augenzwinkernde Vergleichsgröße, um sehr kleine Strahlendosen anschaulich zu machen, etwa bei Flugreisen oder medizinischen Untersuchungen."
+     "title": "Papier aus Annonay",
+     "text": "Die Brüder Joseph-Michel und Jacques-Étienne Montgolfier stammten aus einer Papiermacherfamilie in Annonay in der Ardèche. Am 4. Juni 1783 ließen sie dort öffentlich eine große Hülle aus Stoff und Papier aufsteigen, gefüllt mit heißer Luft aus einem Feuer. Die Brüder glaubten zunächst, der Rauch selbst enthalte ein besonderes, leichtes Gas. Tatsächlich trägt schlicht die erwärmte Luft, weil sie weniger dicht ist als die kühlere Luft ringsum."
     },
     {
-     "title": "Ein Mensch, der zerfällt",
-     "text": "Kalium ist lebenswichtig, unter anderem für die Arbeit von Nerven und Muskeln. Deshalb enthält auch der menschliche Körper Kalium-40. Im Körper eines Erwachsenen zerfallen dadurch jede Sekunde mehrere tausend Atomkerne, ganz natürlich und unbemerkt. Gemessen wird eine solche Aktivität in Becquerel: Ein Becquerel entspricht einem radioaktiven Zerfall pro Sekunde. Die Einheit wurde 1975 in das Internationale Einheitensystem aufgenommen. Ihr Name erinnert an einen französischen Physiker, der die Radioaktivität eher zufällig entdeckte."
+     "title": "Schaf, Ente, Hahn",
+     "text": "Bevor ein Mensch einstieg, schickten die Montgolfiers Tiere voraus. Am 19. September 1783 stieg in Versailles ein Ballon mit einem Schaf, einer Ente und einem Hahn auf, vor den Augen von König Ludwig XVI. und Marie Antoinette. Geklärt werden sollte, ob Lebewesen in der Höhe überhaupt atmen und überleben können. Nach wenigen Minuten ging der Ballon in einem Wald nieder, die Tiere überlebten die Fahrt. Damit war der Weg für menschliche Passagiere frei."
     },
     {
-     "title": "Wolken über Paris",
-     "text": "Kurz zuvor hatte Wilhelm Conrad Röntgen die nach ihm benannten Strahlen entdeckt. Henri Becquerel, Sohn und Enkel von Physikern, untersuchte daraufhin 1896, ob Uransalze nach Sonnenbestrahlung ähnlich durchdringende Strahlen aussenden. An trüben Tagen fehlte das Sonnenlicht, und er legte Salze und lichtdicht verpackte Fotoplatten in eine Schublade. Als er die Platten trotzdem entwickelte, zeigten sie deutliche Schwärzungen. Die Strahlung kam offenbar aus dem Uran selbst, ganz ohne Sonne. Diese rätselhaften Strahlen wurden zum Forschungsthema einer jungen Doktorandin."
+     "title": "Die ersten Menschen",
+     "text": "Am 21. November 1783 hoben Jean-François Pilâtre de Rozier und der Marquis d’Arlandes vom Park des Château de la Muette in Paris ab. Es war die erste freie Fahrt von Menschen in einem Luftfahrzeug. Etwa 25 Minuten dauerte sie, rund neun Kilometer legten die beiden zurück und landeten auf der Butte-aux-Cailles. Das Feuer brannte mit an Bord, und unterwegs mussten sie mit nassen Schwämmen Glutstellen an der Hülle löschen."
     },
     {
-     "title": "Ein neues Wort",
-     "text": "Maria Skłodowska stammte aus Warschau und studierte in Paris, wo sie als Marie Curie bekannt wurde. Für ihre Doktorarbeit untersuchte sie die Becquerel-Strahlen genauer. Sie stellte fest, dass ihre Stärke von der Menge des Urans abhing, nicht von seiner chemischen Verbindung, und folgerte, dass die Strahlung aus den Atomen selbst stammt. Dafür prägte sie den Begriff „Radioaktivität“. Gemeinsam mit ihrem Mann Pierre Curie gab sie 1898 die Entdeckung zweier neuer Elemente bekannt."
+     "title": "Die Konkurrenz mit Wasserstoff",
+     "text": "Nur zehn Tage später folgte die Konkurrenz: Am 1. Dezember 1783 startete der Physiker Jacques Charles gemeinsam mit Nicolas-Louis Robert im Pariser Tuileriengarten. Ihr Ballon war mit Wasserstoff gefüllt, einem Gas, das viel leichter ist als Luft und kein Feuer an Bord braucht. Die Fahrt dauerte gut zwei Stunden. Seitdem gibt es zwei Grundprinzipien: Heißluftballons, nach ihren Erfindern Montgolfièren genannt, und Gasballons, in Frankreich lange Charlières."
     },
     {
-     "title": "Ein Land im Periodensystem",
-     "text": "Das erste der beiden neuen Elemente, im Juli 1898 bekannt gegeben, nannten die Curies Polonium, nach Marie Curies Heimat Polen. Die Wahl war auch ein politisches Zeichen: Polen existierte damals nicht als eigener Staat, sein Gebiet war zwischen Russland, Preußen und Österreich aufgeteilt. Das zweite Element folgte im Dezember desselben Jahres und erhielt den Namen Radium, abgeleitet vom lateinischen Wort „radius“ für Strahl. Radium sollte bald weltweit bekannt werden."
+     "title": "Beides zugleich",
+     "text": "Pilâtre de Rozier wollte die beiden Prinzipien vereinen: eine Gaszelle mit Wasserstoff, kombiniert mit einem Heißluftteil darunter. Mit einem solchen Ballon versuchte er im Juni 1785, den Ärmelkanal von Frankreich nach England zu überqueren. Kurz nach dem Start bei Boulogne-sur-Mer stürzte der Ballon ab; Pilâtre de Rozier und sein Begleiter Pierre Romain kamen ums Leben. Sie gelten als erste Todesopfer der Luftfahrt. Die Bauart trägt bis heute seinen Namen: Rozière."
     },
     {
-     "title": "Ein Gramm als Maßstab",
-     "text": "1903 erhielten die Curies zusammen mit Henri Becquerel den Nobelpreis für Physik; Marie Curie war damit die erste Frau mit einem Nobelpreis. Radium wurde so wichtig, dass sich 1910 ein Radiologiekongress in Brüssel auf eine Einheit einigte, die sich an einem Gramm Radium orientierte: das Curie. Später wurde es auf 3,7 mal 10 hoch 10 Becquerel festgelegt. 1911 folgte für Marie Curie der Nobelpreis für Chemie. Sie ist bis heute der einzige Mensch mit Nobelpreisen in zwei verschiedenen Naturwissenschaften."
+     "title": "Einmal um die Erde",
+     "text": "Ihren größten Auftritt hatte die Rozière mehr als 200 Jahre später. Im März 1999 starteten Bertrand Piccard und Brian Jones mit dem Ballon Breitling Orbiter 3 im Schweizer Château-d’Oex. Knapp 20 Tage später landeten sie in Ägypten, als Erste, die die Erde in einem Ballon ohne Zwischenlandung umrundet hatten. Die Hülle verband, wie einst von Pilâtre de Rozier erdacht, eine Gaszelle mit Heißluft; statt Wasserstoff diente nun das unbrennbare Helium."
     },
     {
-     "title": "Leuchtende Zifferblätter",
-     "text": "Mit Zinksulfid gemischt ergab Radium eine Farbe, die im Dunkeln leuchtete. In den 1910er- und 1920er-Jahren wurde sie für Uhrenzifferblätter und Instrumentenanzeigen verwendet. In einer Fabrik in New Jersey formten Arbeiterinnen ihre Pinsel mit den Lippen zu feinen Spitzen und nahmen so Radium auf. Viele erkrankten schwer. Fünf Frauen verklagten die United States Radium Corporation; der Fall endete 1928 mit einem Vergleich. Die Arbeiterinnen wurden als „Radium Girls“ bekannt, und ihr Fall trug dazu bei, den Arbeitsschutz zu verbessern."
+     "title": "Der Großvater in der Stratosphäre",
+     "text": "Bertrand Piccard stammt aus einer Familie von Höhen- und Tiefenforschern. Sein Großvater, der Schweizer Physiker Auguste Piccard, stieg am 27. Mai 1931 mit seinem Assistenten Paul Kipfer von Augsburg aus in einem Gasballon in die Stratosphäre, auf knapp 16 Kilometer Höhe. Möglich machte das eine luftdicht verschlossene Aluminiumkugel als Kabine, eine frühe Druckkabine. Gelandet wurde auf dem Gurgler Ferner, einem Gletscher bei Obergurgl in Tirol."
     },
     {
-     "title": "Tonnen für einen Bruchteil",
-     "text": "Ihr Radium gewannen die Curies aus Rückständen von Pechblende, einem uranhaltigen Erz. Es stammte aus den Bergwerken von St. Joachimsthal in Böhmen, dem heutigen Jáchymov in Tschechien. Dort wurde Uran damals vor allem für Farben in Glas und Keramik gewonnen, die Reste galten als Abfall. Um winzige Mengen Radium zu isolieren, mussten Tonnen an Material in mühsamer Handarbeit verarbeitet werden. Berühmt war Joachimsthal allerdings schon Jahrhunderte vorher, und zwar wegen eines ganz anderen Metalls: Silber."
+     "title": "Ein Ballon für die Tiefsee",
+     "text": "Danach drehte Auguste Piccard das Prinzip um: Sein Bathyscaph ist im Grunde ein Ballon für das Meer. Statt Gas trägt ein großer Schwimmkörper voller Benzin, das leichter ist als Wasser und sich kaum zusammendrücken lässt; abwerfbarer Eisenballast regelt Sinken und Aufsteigen. Mit dem Bathyscaph Trieste erreichten sein Sohn Jacques Piccard und Don Walsh am 23. Januar 1960 den Grund des Challengertiefs im Marianengraben, fast 11.000 Meter unter dem Meeresspiegel."
     },
     {
-     "title": "Vom Taler zum Dollar",
-     "text": "Im frühen 16. Jahrhundert ließen die Grafen Schlick, denen das Bergbaugebiet gehörte, Silber aus Joachimsthal zu großen Münzen prägen, den Joachimsthalern, kurz Talern. Der Name verbreitete sich mit den Münzen und ihren Nachahmungen durch Europa und wurde abgewandelt, etwa zum niederländischen „daalder“ und zum englischen „dollar“. 1792 legten die Vereinigten Staaten den Dollar gesetzlich als Einheit ihrer Währung fest. So steckt im Wort Dollar bis heute ein Tal im Erzgebirge."
+     "title": "Fliegen mit der Sonne",
+     "text": "Bei der Ballonumrundung war der Propanvorrat am Ende knapp geworden. Danach verfolgte Bertrand Piccard die Idee, ganz ohne Treibstoff zu fliegen. Gemeinsam mit André Borschberg steuerte er abwechselnd das einsitzige Solarflugzeug Solar Impulse 2 in Etappen um die Welt. Im Juli 2016 landete es wieder in Abu Dhabi, angetrieben allein von Sonnenenergie. Aus einer Hülle über einem Feuer in Annonay war in gut 230 Jahren eine Weltreise ohne einen Tropfen Brennstoff geworden."
     }
    ],
    "sources": [
     {
-     "title": "Nobelstiftung: Marie Curie – Facts",
-     "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/"
-    },
-    {
-     "title": "Nobelstiftung: Henri Becquerel – Biographical",
-     "url": "https://www.nobelprize.org/prizes/physics/1903/becquerel/biographical/"
-    },
-    {
-     "title": "BIPM: Die SI-Broschüre (9. Auflage, 2019)",
+     "title": "Charles C. Gillispie: The Montgolfier Brothers and the Invention of Aviation 1783–1784, Princeton University Press (1983)",
      "url": ""
     },
     {
-     "title": "Encyclopaedia Britannica: Dollar; Thaler; Jáchymov; Polonium; Radium; Henri Becquerel; Curie (unit)",
+     "title": "Smithsonian National Air and Space Museum: Ballooning / Breitling Orbiter 3",
      "url": ""
     },
     {
-     "title": "Kate Moore: The Radium Girls (2017)",
+     "title": "Bertrand Piccard, Brian Jones: The Greatest Adventure (1999)",
      "url": ""
+    },
+    {
+     "title": "Jacques Piccard, Robert S. Dietz: Seven Miles Down (1961)",
+     "url": ""
+    },
+    {
+     "title": "Solar Impulse Foundation",
+     "url": "https://solarimpulse.com"
+    }
+   ]
+  },
+  "2026-11-19": {
+   "topic": "astro",
+   "tag": "Deep Space Walk",
+   "illu": "telescope",
+   "accent": "#4f8ef7",
+   "title": "Wird die Dunkle Energie schwächer?",
+   "body": [
+    "Seit gut einem Vierteljahrhundert gilt als ausgemacht, dass sich das Universum immer schneller ausdehnt und dass eine rätselhafte Dunkle Energie dafür verantwortlich ist. Das Standardmodell der Kosmologie behandelt sie als unveränderliche Konstante. Neue Messungen eines Instruments in Arizona deuten an, dass diese Annahme womöglich nicht hält: Die Dunkle Energie könnte im Lauf der kosmischen Geschichte schwächer geworden sein. Bewiesen ist das noch nicht. Interessant ist es aber auch so, weil es eine der Grundannahmen der modernen Kosmologie berührt.",
+    "## Eine Kraft ohne Gesicht",
+    "1998 stellten zwei unabhängige Forschungsteams fest, dass weit entfernte Supernovae vom Typ Ia lichtschwächer erscheinen als erwartet. Die Erklärung: Die Expansion des Universums beschleunigt sich. Saul Perlmutter, Brian Schmidt und Adam Riess erhielten dafür 2011 den Nobelpreis für Physik. Was die Beschleunigung antreibt, weiß bis heute niemand. Der Name Dunkle Energie beschreibt eher die Lücke als die Sache selbst.",
+    "Im Standardmodell, kurz ΛCDM genannt, steckt die Dunkle Energie in der kosmologischen Konstante Λ, die schon Albert Einstein in seine Gleichungen eingeführt hatte. Nach diesem Modell macht sie rund 70 Prozent des Energiegehalts des heutigen Universums aus und bleibt über alle Zeiten gleich stark. Das Modell beschreibt viele Beobachtungen bemerkenswert gut. Gerade deshalb fällt jede Abweichung auf.",
+    "## Fünftausend Augen auf Kitt Peak",
+    "Das Dark Energy Spectroscopic Instrument, kurz DESI, sitzt am Mayall-Teleskop auf dem Kitt Peak in Arizona. Sein Kern sind 5000 Glasfasern, die von kleinen Robotern präzise auf einzelne Galaxien und Quasare ausgerichtet werden. So kann das Instrument Tausende Spektren in einer einzigen Aufnahme erfassen. Aus jedem Spektrum lässt sich die Rotverschiebung bestimmen und damit, wie weit ein Objekt entfernt ist und wann sein Licht aufbrach. Die eigentliche Durchmusterung begann im Mai 2021.",
+    "Das Ziel ist eine dreidimensionale Karte des Universums, die einen großen Teil der kosmischen Geschichte abdeckt. Wie sich die Materie auf dieser Karte verteilt, verrät, wie schnell sich der Raum zu verschiedenen Zeiten ausgedehnt hat.",
+    "## Ein eingefrorenes Echo als Maßstab",
+    "Das wichtigste Werkzeug dafür sind die baryonischen akustischen Oszillationen. Im jungen Universum war die Materie ein heißes Plasma, durch das Schallwellen liefen. Etwa 380.000 Jahre nach dem Urknall kühlte das Universum so weit ab, dass sich Atome bildeten. Die Wellen kamen zum Stillstand, und ihr Muster blieb in der Verteilung der Materie erhalten.",
+    "Heute zeigt es sich als leicht bevorzugter Abstand zwischen Galaxien von rund 500 Millionen Lichtjahren. Dieser Abstand wirkt wie ein kosmisches Lineal, dessen Länge man aus der Physik des frühen Universums kennt. Misst man, wie groß das Lineal zu verschiedenen Epochen erscheint, lässt sich die Expansionsgeschichte rekonstruieren.",
+    "## Was die Daten andeuten",
+    "Im April 2024 stellte die DESI-Kollaboration die Auswertung ihres ersten Beobachtungsjahres vor. Im März 2025 folgte die Analyse von drei Jahren mit Daten von mehr als 14 Millionen Galaxien und Quasaren. Für sich allein passen die DESI-Messungen noch zum Standardmodell. Kombiniert man sie jedoch mit der kosmischen Hintergrundstrahlung und mit Supernova-Daten, bevorzugen die Daten ein Modell, in dem die Dunkle Energie nicht konstant ist, sondern sich mit der Zeit verändert und gegenwärtig schwächer wird.",
+    "Die statistische Stärke dieses Hinweises liegt je nach verwendetem Supernova-Katalog zwischen 2,8 und 4,2 Sigma. In der Physik gilt üblicherweise erst ein Wert von 5 Sigma als Entdeckung. Die Abhängigkeit vom Supernova-Datensatz ist zugleich ein Grund zur Vorsicht: Unerkannte systematische Effekte in einzelnen Katalogen könnten einen Teil des Signals erklären.",
+    "## Warum vorsichtig bleiben sinnvoll ist",
+    "Die Geschichte der Kosmologie kennt Signale, die mit mehr Daten verschwanden, und andere, die sich bestätigten. Bemerkenswert ist hier, dass der Hinweis zwischen dem ersten und dem dritten Datenjahr nicht schwächer wurde. Sollte er sich halten, wäre das folgenreich: Eine sich verändernde Dunkle Energie würde bedeuten, dass sie keine bloße Eigenschaft des leeren Raums ist, sondern etwas Dynamisches, für das die Physik noch keine Erklärung hat. Auch die Frage, wie sich das Universum in ferner Zukunft entwickelt, müsste dann neu gestellt werden.",
+    "DESI beobachtet weiter, und auch das europäische Weltraumteleskop Euclid, das im Juli 2023 startete, vermisst die großräumige Struktur des Kosmos. Unabhängige Methoden werden zeigen, ob die Dunkle Energie tatsächlich nachlässt oder ob das Standardmodell ein weiteres Mal standhält. Bis dahin bleibt ein offener Befund – und die Erinnerung daran, dass auch scheinbar gesicherte Konstanten überprüft werden wollen."
+   ],
+   "source": "DESI Collaboration (Adame et al.), „DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations“, JCAP 2025 (arXiv:2404.03002); DESI Collaboration (Abdul-Karim et al.), „DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints“, 2025 (arXiv:2503.14738)",
+   "sources": [
+    {
+     "title": "DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations (arXiv:2404.03002)",
+     "url": "https://arxiv.org/abs/2404.03002"
+    },
+    {
+     "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints (arXiv:2503.14738)",
+     "url": "https://arxiv.org/abs/2503.14738"
+    },
+    {
+     "title": "The Nobel Prize in Physics 2011",
+     "url": "https://www.nobelprize.org/prizes/physics/2011/summary/"
+    },
+    {
+     "title": "Dark Energy Spectroscopic Instrument – Projektseite",
+     "url": "https://www.desi.lbl.gov/"
+    }
+   ]
+  },
+  "2026-11-20": {
+   "topic": "plant",
+   "illu": "leaf",
+   "accent": "#47b39d",
+   "name": "Efeu",
+   "latin": "Hedera helix",
+   "effect": "Zubereitungen aus Efeublättern werden als schleimlösendes Mittel bei Husten mit Auswurf eingesetzt.",
+   "text": "Der immergrüne Efeu blüht ungewöhnlich spät, meist zwischen September und November, und ist damit eine wichtige späte Nahrungsquelle für Insekten. Arzneilich genutzt werden Zubereitungen aus den Blättern, vor allem Trockenextrakte in Hustensäften. Die Pflanze selbst ist giftig, besonders die Beeren, und ihr Saft kann die Haut reizen. Efeu-Präparate sind für Kinder unter zwei Jahren nicht geeignet, in Schwangerschaft und Stillzeit wird von der Anwendung abgeraten; als Nebenwirkung sind Magen-Darm-Beschwerden möglich.",
+   "sources": [
+    {
+     "title": "European Medicines Agency (HMPC): European Union herbal monograph on Hedera helix L., folium",
+     "url": "https://www.ema.europa.eu/en/medicines/herbal/hederae-helicis-folium"
+    },
+    {
+     "title": "Wichtl, M. (Hrsg.): Teedrogen und Phytopharmaka, Wissenschaftliche Verlagsgesellschaft Stuttgart",
+     "url": ""
+    }
+   ]
+  },
+  "2026-11-21": {
+   "topic": "sa",
+   "word": "Tohuwabohu",
+   "kind": "Substantiv",
+   "meaning": "Ein Tohuwabohu ist ein völliges Durcheinander, ein heilloses Chaos.",
+   "origin": "Das Wort stammt aus dem hebräischen „tohu wa-bohu“ im zweiten Vers der Bibel (Genesis 1,2), wo es den ungeordneten Zustand der Erde vor der Schöpfung beschreibt.",
+   "sources": [
+    {
+     "title": "Duden online: Tohuwabohu",
+     "url": "https://www.duden.de/rechtschreibung/Tohuwabohu"
+    },
+    {
+     "title": "DWDS – Digitales Wörterbuch der deutschen Sprache: Tohuwabohu",
+     "url": "https://www.dwds.de/wb/Tohuwabohu"
+    },
+    {
+     "title": "Die Bibel, Genesis 1,2 (Lutherübersetzung)",
+     "url": ""
+    }
+   ]
+  },
+  "2026-11-22": {
+   "topic": "so",
+   "text": "Das Bemühen, das Universum zu verstehen, gehört zu den ganz wenigen Dingen, die das menschliche Leben ein wenig über das Niveau einer Farce hinausheben und ihm etwas von der Anmut einer Tragödie verleihen.",
+   "author": "Steven Weinberg",
+   "when": "1977 · The First Three Minutes, Epilog (eigene Übersetzung aus dem Englischen)",
+   "sources": [
+    {
+     "title": "Steven Weinberg: The First Three Minutes. A Modern View of the Origin of the Universe. New York: Basic Books, 1977 (Epilog)",
+     "url": ""
+    },
+    {
+     "title": "The Nobel Prize in Physics 1979 – NobelPrize.org",
+     "url": "https://www.nobelprize.org/prizes/physics/1979/summary/"
     }
    ]
   }
