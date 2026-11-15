@@ -10,7 +10,7 @@ const PRIVACY_HTML = `
   <p>Alicia Cataldo<br>E-Mail: <a href="mailto:alicia@catcat.de">alicia@catcat.de</a></p>
 
   <h3>Daten auf deinem iPhone</h3>
-  <p>Deine Sammlung, Countdowns, Kunden-Notizen (catcat), Einstellungen und der Fortschritt in den Faktenketten werden ausschließlich auf deinem iPhone gespeichert – im Speicher der App und in einem Bereich, den die App mit ihren Widgets teilt. Sie werden nicht an uns oder Dritte übertragen. Wenn du die App löschst, werden auch diese Daten gelöscht.</p>
+  <p>Deine Sammlung, Countdowns, Kunden-Notizen (catcat), Reisen samt angehängter Buchungsunterlagen, Einstellungen und der Fortschritt in den Faktenketten werden ausschließlich auf deinem iPhone gespeichert – im Speicher der App und in einem Bereich, den die App mit ihren Widgets teilt. Sie werden nicht an uns oder Dritte übertragen. Wenn du die App löschst, werden auch diese Daten gelöscht.</p>
 
   <h3>Kalender</h3>
   <p>Nur wenn du es erlaubst, liest meanwhile Termine aus den Kalendern, die du in den Einstellungen auswählst. Die Termine werden auf dem iPhone verarbeitet – für die Morgenzusammenfassung, Erinnerungen und das Widget – und nicht übertragen oder dauerhaft kopiert. Die Erlaubnis kannst du jederzeit in den iOS-Einstellungen unter Datenschutz &amp; Sicherheit → Kalender widerrufen.</p>
