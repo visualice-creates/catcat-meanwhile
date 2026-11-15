@@ -3,6 +3,7 @@
 Die Formate entsprechen dem, was die App schon kennt (web/content.js, chains.js, herbs.js, weekend.js),
 damit ein Tag aus dem Netz genauso dargestellt wird wie ein eingebauter.
 """
+import json
 
 MODEL = "claude-opus-5-5"
 # Sparversion: Claude schreibt aus seinem Wissen (ohne Websuche – die Suchergebnisse waren der größte Kostenposten),
@@ -117,7 +118,6 @@ def prompt(topic, date, avoid):
 
 
 def verify_prompt(topic, item):
-    import json
     return ("Du bist Faktenprüferin für die App „meanwhile“. Prüfe den folgenden Inhalt gründlich mit der Websuche: "
             "jede Tatsache, jede Zahl, jedes Datum, jedes Zitat (wörtlich und richtig zugeordnet?) und ob die angegebenen Quellen die Aussagen wirklich stützen. "
             "Prüfe außerdem, ob Gesundheitsaussagen vorsichtig genug sind und ob Fachbegriffe richtig übersetzt sind. Kleinigkeiten im Stil sind kein Problem. "
@@ -127,7 +127,6 @@ def verify_prompt(topic, item):
 
 
 def repair_prompt(topic, item, problems):
-    import json
     return ("Die Prüfung hat bei diesem Inhalt Probleme gefunden. Korrigiere sie anhand der Angaben der Prüfung, "
             "oder ersetze den Inhalt durch einen anderen, sicher belegten, wenn sich das nicht sauber korrigieren lässt. "
             "Streiche im Zweifel eine Aussage, statt sie unsicher stehen zu lassen.\n\n"
